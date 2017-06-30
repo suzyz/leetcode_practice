@@ -1,0 +1,333 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sol",
+				"mySolve"
+			],
+			[
+				"l",
+				"ListNode"
+			],
+			[
+				"m",
+				"main\tmethod (main)"
+			],
+			[
+				"gen",
+				"generateParenthesis"
+			],
+			[
+				"super",
+				"superPow2"
+			],
+			[
+				"retu",
+				"return"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "p30/p30.java",
+			"settings":
+			{
+				"buffer_size": 364,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "p37/p37.java",
+			"settings":
+			{
+				"buffer_size": 2887,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Java/JavaC.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Java/JavaC.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/apple/leet_practice"
+	],
+	"file_history":
+	[
+		"/Users/apple/leet_practice/p54/p54.java",
+		"/Users/apple/leet_practice/p31/p31.java",
+		"/Users/apple/leet_practice/p83/p83.java",
+		"/Users/apple/leet_practice/p4/p4.cpp",
+		"/Users/apple/leet_practice/p36/p36.java",
+		"/Users/apple/leet_practice/p29/p29.java",
+		"/Users/apple/leet_practice/p25/p25.java",
+		"/Users/apple/leet_practice/p24/p24.java",
+		"/Users/apple/leet_practice/p18/p18.java",
+		"/Users/apple/leet_practice/p23/p23.java",
+		"/Users/apple/leet_practice/p67/p67.java",
+		"/Users/apple/leet_practice/test1.md",
+		"/Users/apple/leet_practice/p58/p58.java",
+		"/Users/apple/leet_practice/p22/p22.java",
+		"/Users/apple/leet_practice/p53/p53.java",
+		"/Users/apple/leet_practice/p35/p35.java",
+		"/Users/apple/leet_practice/p66/p66.java",
+		"/Users/apple/leet_practice/p127/p127.java",
+		"/Users/apple/leet_practice/p19/p19.java",
+		"/Users/apple/leet_practice/p21/p21.java",
+		"/Users/apple/leet_practice/p17/p17.java",
+		"/Users/apple/leet_practice/p20/p20.java",
+		"/Users/apple/leet_practice/p27/p27.java",
+		"/Users/apple/leet_practice/p26/p26.java",
+		"/Users/apple/leet_practice/p372/p372.java",
+		"/Users/apple/leet_practice/p50/p50.java",
+		"/Users/apple/leet_practice/p69/p69.java",
+		"/Users/apple/leet_practice/p16/p16.java",
+		"/Users/apple/leet_practice/p11/p11.java",
+		"/Users/apple/leet_practice/p10/p10.java",
+		"/Users/apple/leet_practice/p15/Solution.java",
+		"/Users/apple/leet_practice/p15.java",
+		"/Users/apple/leet_practice/p4.cpp",
+		"/Users/apple/abc/p4.cpp"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 105.0,
+		"where_history":
+		[
+			"/Users/apple/leet_practice"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"arrays",
+			"toList",
+			"'",
+			"arr",
+			"abs",
+			"TRUE",
+			"1"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"",
+			"Math.abs",
+			"true",
+			"TRUE"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "p30/p30.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 364,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								364,
+								364
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "p37/p37.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2887,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1412,
+								1412
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1249.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 33.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "leet.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 175.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
