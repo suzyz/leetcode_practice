@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"bu",
+				"busyDiag1"
+			],
+			[
 				"sol",
 				"mySolve"
 			],
@@ -41,12 +45,23 @@
 			}
 		},
 		{
-			"file": "p51/p51.java",
+			"file": "p57/p57.java",
 			"settings":
 			{
-				"buffer_size": 1420,
+				"buffer_size": 1088,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Unix",
+				"name": "public class p57 {"
+			}
+		},
+		{
+			"file": "p61/p61.java",
+			"settings":
+			{
+				"buffer_size": 644,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "/**"
 			}
 		}
 	],
@@ -102,6 +117,16 @@
 	],
 	"file_history":
 	[
+		"/Users/apple/leetcode_practice/p101/p101.java",
+		"/Users/apple/leetcode_practice/p101/p101_2.java",
+		"/Users/apple/leetcode_practice/p56/p56_2.java",
+		"/Users/apple/leetcode_practice/p56/p56.java",
+		"/Users/apple/leetcode_practice/p59/p59.java",
+		"/Users/apple/leetcode_practice/p48/p48.java",
+		"/Users/apple/leetcode_practice/p125/p125.java",
+		"/Users/apple/leetcode_practice/p52/p52_2.java",
+		"/Users/apple/leetcode_practice/p52/p52.java",
+		"/Users/apple/leetcode_practice/p51/p51.java",
 		"/Users/apple/leetcode_practice/p37/p37.java",
 		"/Users/apple/leet_practice/p54/p54.java",
 		"/Users/apple/leet_practice/p31/p31.java",
@@ -184,7 +209,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -200,8 +225,8 @@
 						"selection":
 						[
 							[
-								364,
-								364
+								355,
+								355
 							]
 						],
 						"settings":
@@ -214,32 +239,66 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "p51/p51.java",
+					"file": "p57/p57.java",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1420,
+						"buffer_size": 1088,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1403,
-								1403
+								1026,
+								1026
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Java/Java.sublime-syntax"
+							"auto_name": "public class p57 {",
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 818.0,
+						"translation.y": 657.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "p61/p61.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 644,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								168,
+								168
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/**",
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 20.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -328,7 +387,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 175.0,
 	"status_bar_visible": true,
 	"template_settings":
