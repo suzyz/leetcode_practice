@@ -10,6 +10,7 @@ class Interval {
 public class p57 {
     public List<Interval> insert(List<Interval> intervals, Interval newInterval) {
        	int n=intervals.size();
+        /*
        	if(n==0)
        	{
        		intervals.add(newInterval);
@@ -45,6 +46,7 @@ public class p57 {
        		else l=mid+1;
        	}
        	if(l==0)
+        */
 
        	return intervals;
     }
