@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"n",
+				"n"
+			],
+			[
 				"Ar",
 				"ArrayList"
 			],
@@ -52,48 +56,29 @@
 			"file": "p57/p57.java",
 			"settings":
 			{
-				"buffer_size": 1088,
+				"buffer_size": 1110,
 				"encoding": "UTF-8",
 				"line_ending": "Unix",
 				"name": "public class p57 {"
 			}
 		},
 		{
-			"file": "p41/p41.java",
+			"file": "p73/p73.java",
 			"settings":
 			{
-				"buffer_size": 524,
+				"buffer_size": 542,
 				"encoding": "UTF-8",
 				"line_ending": "Unix",
-				"name": "public class p41 {"
+				"name": "public class Solution {"
 			}
 		},
 		{
-			"file": "p94/p94.java",
+			"file": "p123/p123_2.java",
 			"settings":
 			{
-				"buffer_size": 450,
+				"buffer_size": 719,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "p94/p94_2.java",
-			"settings":
-			{
-				"buffer_size": 497,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "p96/p96.java",
-			"settings":
-			{
-				"buffer_size": 204,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "public class p96 {"
 			}
 		}
 	],
@@ -145,13 +130,21 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/apple/leetcode_practice",
-		"/Users/apple/leetcode_practice/p4",
-		"/Users/apple/leetcode_practice/p41",
-		"/Users/apple/leetcode_practice/p96"
+		"/Users/apple/leetcode_practice"
 	],
 	"file_history":
 	[
+		"/Users/apple/leetcode_practice/p123/p123.java",
+		"/Users/apple/leetcode_practice/p122/p122.java",
+		"/Users/apple/leetcode_practice/p75/p75.java",
+		"/Users/apple/leetcode_practice/p75/p75_2.java",
+		"/Users/apple/leetcode_practice/p75/p75_3.java",
+		"/Users/apple/leetcode_practice/p62/p62.java",
+		"/Users/apple/leetcode_practice/p89/p89.java",
+		"/Users/apple/leetcode_practice/p96/p96.java",
+		"/Users/apple/leetcode_practice/p41/p41.java",
+		"/Users/apple/leetcode_practice/p94/p94_2.java",
+		"/Users/apple/leetcode_practice/p94/p94.java",
 		"/Users/apple/leetcode_practice/p45/p45.java",
 		"/Users/apple/leetcode_practice/p47/p47.java",
 		"/Users/apple/leetcode_practice/p46/p46.java",
@@ -249,7 +242,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -279,7 +272,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -288,15 +281,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1088,
+						"buffer_size": 1110,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1080,
-								1080
+								917,
+								917
 							]
 						],
 						"settings":
@@ -310,125 +303,68 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "p41/p41.java",
+					"file": "p73/p73.java",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 524,
+						"buffer_size": 542,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								516,
-								77
+								534,
+								534
 							]
 						],
 						"settings":
 						{
-							"auto_name": "public class p41 {",
+							"auto_name": "public class Solution {",
 							"syntax": "Packages/Java/Java.sublime-syntax",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "p94/p94.java",
+					"file": "p123/p123_2.java",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 450,
+						"buffer_size": 719,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								280,
-								280
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/Java/Java.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 13.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "p94/p94_2.java",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 497,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								418,
-								418
+								512,
+								512
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Java/Java.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 197.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "p96/p96.java",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 204,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								196,
-								196
-							]
-						],
-						"settings":
-						{
-							"auto_name": "public class p96 {",
-							"syntax": "Packages/Java/Java.sublime-syntax"
-						},
-						"translation.x": 0.0,
+						"translation.x": 7.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
