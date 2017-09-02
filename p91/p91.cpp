@@ -4,30 +4,15 @@ public:
         int n=s.length();
         if(n==0) return 0;
 
-        int f[n];
+        int f[n+1];
         memset(f,0,sizeof(f));
-        int i=0;
-
-        while(i<n && s[i]=='0') i++;
-
-        if(i==n) return 0;
-
-        f[i]=1;
-        while(i<n-1)
+        
+        f[n]=1;
+        for(int i=n-1;i>=0;i--)
         {
-            i++;
-            if(s[i]=='0') continue;
-
-            f[i]=f[i-1];
-            if(s[i-1]!='0' && (s[i-1]-'0')*10+s[i]-'0'<=26)
-            {
-                if(i>1)
-                    f[i]+=f[i-2];
-                else
-                    f[i]++;
-            }
+            if(s[i]>='1' && s[i]<='9') f[i]+=f[i+1];
+            if(i<n-1 && (s[i]=='1' || (s[i]=='2' && s[i+1]<='6'))) f[i]+=f[i+2];
         }
-
-        return f[n-1];
+        return f[0];
     }
 };
