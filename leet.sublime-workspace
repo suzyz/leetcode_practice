@@ -43,25 +43,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "p57/p57.java",
-			"settings":
-			{
-				"buffer_size": 1110,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "public class p57 {"
-			}
-		},
-		{
-			"file": "p91/p91.cpp",
-			"settings":
-			{
-				"buffer_size": 408,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/Java/JavaC.sublime-build",
 	"build_system_choices":
@@ -112,10 +93,16 @@
 	"expanded_folders":
 	[
 		"/Users/apple/leetcode_practice",
-		"/Users/apple/leetcode_practice/p91"
+		"/Users/apple/leetcode_practice/p44"
 	],
 	"file_history":
 	[
+		"/Users/apple/leetcode_practice/p44/p44.cpp",
+		"/Users/apple/leetcode_practice/p236/p236_2.cpp",
+		"/Users/apple/leetcode_practice/p236/p236.cpp",
+		"/Users/apple/leetcode_practice/p686/p686.cpp",
+		"/Users/apple/leetcode_practice/p57/p57.java",
+		"/Users/apple/leetcode_practice/p235/p235.cpp",
 		"/Users/apple/leetcode_practice/p91/p91.cpp",
 		"/Users/apple/leetcode_practice/p30/p30.cpp",
 		"/Users/apple/leetcode_practice/p30/p30.java",
@@ -200,6 +187,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"null",
+			"NULL",
 			"A",
 			"print",
 			"arrays",
@@ -216,6 +205,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"NULL",
+			"null",
 			"0",
 			"\"",
 			"Math.abs",
@@ -231,70 +222,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "p57/p57.java",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1110,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								911,
-								911
-							]
-						],
-						"settings":
-						{
-							"auto_name": "public class p57 {",
-							"syntax": "Packages/Java/Java.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "p91/p91.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 408,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								408,
-								408
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 58.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -341,7 +270,7 @@
 	"project": "leet.sublime-project",
 	"replace":
 	{
-		"height": 76.0
+		"height": 82.0
 	},
 	"save_all_on_build": true,
 	"select_file":
