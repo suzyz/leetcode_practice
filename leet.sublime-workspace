@@ -43,6 +43,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "p454/p454_2.cpp",
+			"settings":
+			{
+				"buffer_size": 1233,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/Java/JavaC.sublime-build",
 	"build_system_choices":
@@ -93,10 +102,17 @@
 	"expanded_folders":
 	[
 		"/Users/apple/leetcode_practice",
-		"/Users/apple/leetcode_practice/p44"
+		"/Users/apple/leetcode_practice/p44",
+		"/Users/apple/leetcode_practice/p454"
 	],
 	"file_history":
 	[
+		"/Users/apple/leetcode_practice/p454/p454_2.cpp",
+		"/Users/apple/leetcode_practice/p454/p454.cpp",
+		"/Users/apple/leetcode_practice/p118/p118.cpp",
+		"/Users/apple/leetcode_practice/p44/p44_2.cpp",
+		"/Users/apple/leetcode_practice/p141/p141.cpp",
+		"/Users/apple/leetcode_practice/p412/p412.cpp",
 		"/Users/apple/leetcode_practice/p44/p44.cpp",
 		"/Users/apple/leetcode_practice/p236/p236_2.cpp",
 		"/Users/apple/leetcode_practice/p236/p236.cpp",
@@ -222,8 +238,39 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "p454/p454_2.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1233,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								467,
+								467
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 698.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
