@@ -51,6 +51,15 @@
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "p300/p300.cpp",
+			"settings":
+			{
+				"buffer_size": 794,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "Packages/Java/JavaC.sublime-build",
@@ -102,6 +111,7 @@
 	"expanded_folders":
 	[
 		"/Users/apple/leetcode_practice",
+		"/Users/apple/leetcode_practice/p300",
 		"/Users/apple/leetcode_practice/p44",
 		"/Users/apple/leetcode_practice/p454"
 	],
@@ -238,7 +248,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -254,8 +264,8 @@
 						"selection":
 						[
 							[
-								467,
-								467
+								551,
+								551
 							]
 						],
 						"settings":
@@ -265,7 +275,35 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 698.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "p300/p300.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 794,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								160,
+								160
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
