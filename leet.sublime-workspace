@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"pai",
+				"pairhash"
+			],
+			[
 				"n",
 				"n"
 			],
@@ -93,13 +97,20 @@
 	"expanded_folders":
 	[
 		"/Users/apple/leetcode_practice",
-		"/Users/apple/leetcode_practice/p189",
 		"/Users/apple/leetcode_practice/p310",
-		"/Users/apple/leetcode_practice/p44",
 		"/Users/apple/leetcode_practice/p454"
 	],
 	"file_history":
 	[
+		"/Users/apple/leetcode_practice/p384/p384.cpp",
+		"/Users/apple/leetcode_practice/p387/p387.cpp",
+		"/Users/apple/leetcode_practice/p202/p202_2.cpp",
+		"/Users/apple/leetcode_practice/p202/p202.cpp",
+		"/Users/apple/leetcode_practice/p108/p108.cpp",
+		"/Users/apple/leetcode_practice/p204/p204.cpp",
+		"/Users/apple/leetcode_practice/p149/p149.cpp",
+		"/Users/apple/leetcode_practice/p190/p190.cpp",
+		"/Users/apple/leetcode_practice/p155/p155.cpp",
 		"/Users/apple/leetcode_practice/p189/p189.cpp",
 		"/Users/apple/leetcode_practice/p196/p196.sql",
 		"/Users/apple/leetcode_practice/p665/p665.cpp",
@@ -205,6 +216,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"j->",
+			"i->",
+			"long long",
 			"null",
 			"NULL",
 			"A",
@@ -223,6 +237,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"points[j].",
+			"points[i].",
+			"double",
 			"NULL",
 			"null",
 			"0",
