@@ -71,12 +71,16 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 0.0,
-		"last_filter": "",
+		"height": 307.0,
+		"last_filter": ":w",
 		"selected_items":
 		[
+			[
+				":w",
+				":w - Save"
+			]
 		],
-		"width": 0.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -97,11 +101,20 @@
 	"expanded_folders":
 	[
 		"/Users/apple/leetcode_practice",
-		"/Users/apple/leetcode_practice/p127",
-		"/Users/apple/leetcode_practice/p289"
+		"/Users/apple/leetcode_practice/p208"
 	],
 	"file_history":
 	[
+		"/Users/apple/leetcode_practice/p208/p208.cpp",
+		"/Users/apple/leetcode_practice/p76/p76.cpp",
+		"/Users/apple/leetcode_practice/p146/p146_2.cpp",
+		"/Users/apple/leetcode_practice/p146/p146.cpp",
+		"/Users/apple/leetcode_practice/p179/p179.cpp",
+		"/Users/apple/leetcode_practice/p166/p166.cpp",
+		"/Users/apple/leetcode_practice/p322/p322.cpp",
+		"/Users/apple/leetcode_practice/p130/p130_2.cpp",
+		"/Users/apple/leetcode_practice/p130/p130.cpp",
+		"/Users/apple/leetcode_practice/p200/p200.cpp",
 		"/Users/apple/leetcode_practice/p289/p289.cpp",
 		"/Users/apple/leetcode_practice/p238/p238.cpp",
 		"/Users/apple/leetcode_practice/p344/p344.cpp",
@@ -211,7 +224,7 @@
 	],
 	"find":
 	{
-		"height": 41.0
+		"height": 44.0
 	},
 	"find_in_files":
 	{
@@ -226,6 +239,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"cur",
+			"insert",
 			"j->",
 			"i->",
 			"long long",
@@ -247,6 +262,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"c",
 			"points[j].",
 			"points[i].",
 			"double",
