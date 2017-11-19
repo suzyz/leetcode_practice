@@ -20,7 +20,7 @@ public:
         {
             pair<int,int> tmp = q.top();
             q.pop();
-       		res.push_back(tmp.second);
+       		  res.push_back(tmp.second);
         }
        	
        	return res;

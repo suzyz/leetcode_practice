@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"isv",
+				"is_valid_bst"
+			],
+			[
 				"pai",
 				"pairhash"
 			],
@@ -101,10 +105,16 @@
 	"expanded_folders":
 	[
 		"/Users/apple/leetcode_practice",
-		"/Users/apple/leetcode_practice/p208"
+		"/Users/apple/leetcode_practice/p98"
 	],
 	"file_history":
 	[
+		"/Users/apple/leetcode_practice/p98/p98_2.cpp",
+		"/Users/apple/leetcode_practice/p98/p98.cpp",
+		"/Users/apple/leetcode_practice/p378/p378.cpp",
+		"/Users/apple/leetcode_practice/p78/p78.cpp",
+		"/Users/apple/leetcode_practice/p347/p347.cpp",
+		"/Users/apple/leetcode_practice/p210/p210.cpp",
 		"/Users/apple/leetcode_practice/p208/p208.cpp",
 		"/Users/apple/leetcode_practice/p76/p76.cpp",
 		"/Users/apple/leetcode_practice/p146/p146_2.cpp",
@@ -121,7 +131,6 @@
 		"/Users/apple/leetcode_practice/p198/p198.cpp",
 		"/Users/apple/leetcode_practice/p172/p172.cpp",
 		"/Users/apple/leetcode_practice/p324/p324.cpp",
-		"/Users/apple/leetcode_practice/p347/p347.cpp",
 		"/Users/apple/leetcode_practice/p371/p371.cpp",
 		"/Users/apple/leetcode_practice/p103/p103.cpp",
 		"/Users/apple/leetcode_practice/p148/p148.cpp",
@@ -239,6 +248,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"2",
 			"cur",
 			"insert",
 			"j->",
