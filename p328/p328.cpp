@@ -18,17 +18,18 @@ public:
         {
         	odd->next = p;
         	odd = p;
-        	if (p->next)
+        	if (p->next != NULL)
         		p = p->next->next;
         	else
         		p = NULL;
 
-        	if (!q)
-        		break;
-
         	even->next = q;
         	even = q;
-        	if (q->next)
+
+            if (!q)
+                break;
+            
+        	if (q->next != NULL)
         		q = q->next->next;
         	else
         		q = NULL;
