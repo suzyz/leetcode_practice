@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"is",
+				"isInteger"
+			],
+			[
+				"nest",
+				"nested_list"
+			],
+			[
 				"max",
 				"max_neg"
 			],
@@ -121,11 +129,24 @@
 	"expanded_folders":
 	[
 		"/Users/apple/leetcode_practice",
-		"/Users/apple/leetcode_practice/p217",
+		"/Users/apple/leetcode_practice/p140",
+		"/Users/apple/leetcode_practice/p160",
+		"/Users/apple/leetcode_practice/p341",
+		"/Users/apple/leetcode_practice/p380",
 		"/Users/apple/leetcode_practice/p65"
 	],
 	"file_history":
 	[
+		"/Users/apple/leetcode_practice/p160/p160.cpp",
+		"/Users/apple/leetcode_practice/p140/p140.cpp",
+		"/Users/apple/leetcode_practice/p380/p380.cpp",
+		"/Users/apple/leetcode_practice/p152/p152_2.cpp",
+		"/Users/apple/leetcode_practice/p234/p234_2.cpp",
+		"/Users/apple/leetcode_practice/p234/p234.cpp",
+		"/Users/apple/leetcode_practice/p341/p341.cpp",
+		"/Users/apple/leetcode_practice/p191/p191.cpp",
+		"/Users/apple/leetcode_practice/p215/p215_2.cpp",
+		"/Users/apple/leetcode_practice/p215/p215.cpp",
 		"/Users/apple/leetcode_practice/p206/p206_2.cpp",
 		"/Users/apple/leetcode_practice/p242/p242_2.cpp",
 		"/Users/apple/leetcode_practice/p242/p242.cpp",
@@ -137,7 +158,6 @@
 		"/Users/apple/leetcode_practice/p217/p217.cpp",
 		"/Users/apple/leetcode_practice/p328/p328_2.cpp",
 		"/Users/apple/leetcode_practice/p328/p328.cpp",
-		"/Users/apple/leetcode_practice/p140/p140.cpp",
 		"/Users/apple/leetcode_practice/p230/p230_2.cpp",
 		"/Users/apple/leetcode_practice/p230/p230.cpp",
 		"/Users/apple/leetcode_practice/p237/p237.cpp",
@@ -244,16 +264,7 @@
 		"/Users/apple/leet_practice/p25/p25.java",
 		"/Users/apple/leet_practice/p24/p24.java",
 		"/Users/apple/leet_practice/p18/p18.java",
-		"/Users/apple/leet_practice/p23/p23.java",
-		"/Users/apple/leet_practice/p67/p67.java",
-		"/Users/apple/leet_practice/test1.md",
-		"/Users/apple/leet_practice/p58/p58.java",
-		"/Users/apple/leet_practice/p22/p22.java",
-		"/Users/apple/leet_practice/p53/p53.java",
-		"/Users/apple/leet_practice/p35/p35.java",
-		"/Users/apple/leet_practice/p66/p66.java",
-		"/Users/apple/leet_practice/p127/p127.java",
-		"/Users/apple/leet_practice/p19/p19.java"
+		"/Users/apple/leet_practice/p23/p23.java"
 	],
 	"find":
 	{

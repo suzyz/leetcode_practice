@@ -18,15 +18,14 @@ public:
         		return res;
 
         unordered_set<string> dict(wordDict.begin(), wordDict.end());
-        bool insert_space[n+2];
-        memset(insert_space,0,sizeof(insert_space));
+        unordered_set<string> vis;
 
-        dfs(0,-1,n,s,insert_space,dict,res);
+        dfs(0,-1,n,s,dict,res,vis);
 
         return res;
     }
 
-    void dfs(int cur,int last,int n,string &s,bool *insert_space,unordered_set<string>& dict,vector<string>& res)
+    void dfs(int cur,int last,int n,string &s,unordered_set<string>& dict,vector<string>& res,unordered_set<string> &vis)
     {
     	if (cur == n-1)
     	{
