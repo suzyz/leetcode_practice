@@ -129,14 +129,15 @@
 	"expanded_folders":
 	[
 		"/Users/apple/leetcode_practice",
-		"/Users/apple/leetcode_practice/p140",
 		"/Users/apple/leetcode_practice/p160",
-		"/Users/apple/leetcode_practice/p341",
+		"/Users/apple/leetcode_practice/p279",
 		"/Users/apple/leetcode_practice/p380",
 		"/Users/apple/leetcode_practice/p65"
 	],
 	"file_history":
 	[
+		"/Users/apple/leetcode_practice/p279/p279.cpp",
+		"/Users/apple/leetcode_practice/p326/p326.cpp",
 		"/Users/apple/leetcode_practice/p160/p160.cpp",
 		"/Users/apple/leetcode_practice/p140/p140.cpp",
 		"/Users/apple/leetcode_practice/p380/p380.cpp",
@@ -262,9 +263,7 @@
 		"/Users/apple/leet_practice/p36/p36.java",
 		"/Users/apple/leet_practice/p29/p29.java",
 		"/Users/apple/leet_practice/p25/p25.java",
-		"/Users/apple/leet_practice/p24/p24.java",
-		"/Users/apple/leet_practice/p18/p18.java",
-		"/Users/apple/leet_practice/p23/p23.java"
+		"/Users/apple/leet_practice/p24/p24.java"
 	],
 	"find":
 	{
