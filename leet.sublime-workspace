@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"n",
+				"num1"
+			],
+			[
 				"is",
 				"isInteger"
 			],
@@ -34,10 +38,6 @@
 			[
 				"pai",
 				"pairhash"
-			],
-			[
-				"n",
-				"n"
 			],
 			[
 				"Ar",
@@ -130,12 +130,16 @@
 	[
 		"/Users/apple/leetcode_practice",
 		"/Users/apple/leetcode_practice/p160",
+		"/Users/apple/leetcode_practice/p207",
 		"/Users/apple/leetcode_practice/p279",
 		"/Users/apple/leetcode_practice/p380",
 		"/Users/apple/leetcode_practice/p65"
 	],
 	"file_history":
 	[
+		"/Users/apple/leetcode_practice/p207/p207_2.cpp",
+		"/Users/apple/leetcode_practice/p207/p207.cpp",
+		"/Users/apple/leetcode_practice/p415/p415.cpp",
 		"/Users/apple/leetcode_practice/p279/p279.cpp",
 		"/Users/apple/leetcode_practice/p326/p326.cpp",
 		"/Users/apple/leetcode_practice/p160/p160.cpp",
@@ -260,10 +264,7 @@
 		"/Users/apple/leet_practice/p31/p31.java",
 		"/Users/apple/leet_practice/p83/p83.java",
 		"/Users/apple/leet_practice/p4/p4.cpp",
-		"/Users/apple/leet_practice/p36/p36.java",
-		"/Users/apple/leet_practice/p29/p29.java",
-		"/Users/apple/leet_practice/p25/p25.java",
-		"/Users/apple/leet_practice/p24/p24.java"
+		"/Users/apple/leet_practice/p36/p36.java"
 	],
 	"find":
 	{
@@ -282,6 +283,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ind",
+			"rem",
 			"stack",
 			"min_neg",
 			"max_pos",
@@ -311,6 +314,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"pre",
+			"carry",
 			"nums",
 			"max_neg",
 			"min_pos",
@@ -423,7 +428,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 175.0,
+	"side_bar_width": 181.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
