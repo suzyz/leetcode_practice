@@ -130,13 +130,19 @@
 	[
 		"/Users/apple/leetcode_practice",
 		"/Users/apple/leetcode_practice/p160",
-		"/Users/apple/leetcode_practice/p207",
 		"/Users/apple/leetcode_practice/p279",
+		"/Users/apple/leetcode_practice/p282",
 		"/Users/apple/leetcode_practice/p380",
-		"/Users/apple/leetcode_practice/p65"
+		"/Users/apple/leetcode_practice/p474",
+		"/Users/apple/leetcode_practice/p72"
 	],
 	"file_history":
 	[
+		"/Users/apple/leetcode_practice/p474/p474.cpp",
+		"/Users/apple/leetcode_practice/p282/p282.cpp",
+		"/Users/apple/leetcode_practice/p64/p64.cpp",
+		"/Users/apple/leetcode_practice/p72/p72_2.cpp",
+		"/Users/apple/leetcode_practice/p72/p72.cpp",
 		"/Users/apple/leetcode_practice/p207/p207_2.cpp",
 		"/Users/apple/leetcode_practice/p207/p207.cpp",
 		"/Users/apple/leetcode_practice/p415/p415.cpp",
@@ -259,12 +265,7 @@
 		"/Users/apple/leetcode_practice/p52/p52_2.java",
 		"/Users/apple/leetcode_practice/p52/p52.java",
 		"/Users/apple/leetcode_practice/p51/p51.java",
-		"/Users/apple/leetcode_practice/p37/p37.java",
-		"/Users/apple/leet_practice/p54/p54.java",
-		"/Users/apple/leet_practice/p31/p31.java",
-		"/Users/apple/leet_practice/p83/p83.java",
-		"/Users/apple/leet_practice/p4/p4.cpp",
-		"/Users/apple/leet_practice/p36/p36.java"
+		"/Users/apple/leetcode_practice/p37/p37.java"
 	],
 	"find":
 	{
