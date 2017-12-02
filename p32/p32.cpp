@@ -5,28 +5,40 @@ public:
         if (n<2)
         	return 0;
 
-        int ans = 0, len = 0;
-        bool last = false;
-        stack<char> st;
+        int maxl = 0;
+        stack<int> st;
         for (int i = 0; i < n; ++i)
         {
             if (s[i] == '(')
-            {
-                st.push(s[i]);
-            }
+                st.push(i);
             else
             {
-                if (!st.empty() && st.top() == '(')
+                if (!st.empty() && s[st.top()] == '(')
                 {
+                    //
                     st.pop();
-                    len += 2;
-                    ans = max(ans,len);
+                    //maxl = max(i-1-cu)
                 }
                 else
-                    len = 0;
+                if (st.empty())
+                {
+                    st.push(i);
+                    maxl = max(i,maxl);
+                }
+                else
+                {
+                    int cur = st.top();
+                    st.pop();
+                    maxl = max(maxl,i-1-cur);
+                    st.push(i);
+                }
             }
         }
 
-       	return ans;
+        if (st.empty())
+            return n;
+
+        maxl = max(maxl,n-1-st.top());   
+       	return maxl;
     }
 };

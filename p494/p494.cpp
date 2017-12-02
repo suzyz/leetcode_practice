@@ -1,3 +1,4 @@
+// Plain DP. Backpack.
 class Solution {
 public:
 	const int base = 2002;
