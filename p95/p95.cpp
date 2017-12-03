@@ -9,16 +9,42 @@
  */
 class Solution {
 public:
-	TreeNode *cur_root = NULL;
     vector<TreeNode*> generateTrees(int n) {
-        vector<TreeNode*> res;
-        for (int i = 1; i <= n; ++i)
-        {
-        	TreeNode *r = new TreeNode(i);
-        	cur_root = r;
-        	generate_binary_trees(1,)
-        }
+        if (n == 0)
+            return vector<TreeNode*>();
+        return generate_bst(1,n);
     }
 
+    vector<TreeNode*> generate_bst(int st,int en)
+    {
+        vector<TreeNode*> res;
+        if (st > en)
+        {
+            res.push_back(NULL);
+            return res;
+        }
 
+        // if (st == en)
+        // {
+        //     res.push_back(new TreeNode(st));
+        //     return res;
+        // }
+
+        for (int i = st; i <= en; ++i)
+        {
+            vector<TreeNode *> left = generate_bst(st,i-1);
+            vector<TreeNode *> right = generate_bst(i+1,en);
+
+            for (int j = 0; j < left.size(); ++j)
+                for (int k = 0; k < right.size(); ++k)
+                {
+                    TreeNode *p = new TreeNode(i);
+                    p->left = left[j];
+                    p->right = right[k];
+                    res.push_back(p);
+                }
+        }
+
+        return res;
+    }
 };

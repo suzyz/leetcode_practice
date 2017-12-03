@@ -1,4 +1,4 @@
-// Using two stacks.
+// Using one stack.
 
 /**
  * // This is the interface that allows for creating nested lists.
@@ -19,39 +19,32 @@
  */
 class NestedIterator {
 private:
-    stack<vector<NestedInteger>::iterator> begins,ends;
+    stack<NestedInteger> st;
 public:
     NestedIterator(vector<NestedInteger> &nestedList) {
-        begins.push(nestedList.begin());
-        ends.push(nestedList.end());
+        for (int i = nestedList.size()-1; i >= 0; --i)
+            st.push(nestedList[i]);
     }
 
     int next() {
         if (!hasNext())
             return 0;
-        vector<NestedInteger>::iterator cur = begins.top();
-        ++begins.top();
-        return cur->getInteger();
+        NestedInteger cur = st.top();
+        st.pop();
+        return cur.getInteger();
     }
 
     bool hasNext() {
-        while (!begins.empty())
+        while (!st.empty())
         {
-            if (begins.top() == ends.top())
-            {
-                begins.pop();
-                ends.pop();
-            }
-            else
-            {
-                vector<NestedInteger>::iterator cur = begins.top();
-                if (cur->isInteger())
-                    return true;
+            NestedInteger cur = st.top();
+            if (cur.isInteger())
+                return true;
 
-                ++begins.top();
-                begins.push(cur->getList().begin());
-                ends.push(cur->getList().end());
-            }
+            st.pop();
+            vector<NestedInteger> &l = cur.getList();
+            for (int i = l.size()-1; i >= 0; --i)
+                st.push(l[i]);
         }
 
         return false;
