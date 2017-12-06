@@ -1,3 +1,4 @@
+// DFS. 
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -23,7 +24,7 @@ public:
     	TreeNode *root = new TreeNode(preorder[st1]);
     	if (st2 == en2)
     		return root;
-    	
+
     	for (int i = st2; i <= en2; ++i)
     		if (inorder[i] == preorder[st1])
     		{
