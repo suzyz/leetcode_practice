@@ -6,139 +6,57 @@ using namespace std;
 
 class Solution {
 public:
-	int goal, n;
-	string s,t;
-
-	vector<int> status;
-	vector<string> res;
-	stack<long long> st_number;
-    stack<char> st_operator;
-
-	int pred[260];    
-
     vector<string> addOperators(string num, int target) {
+        vector<string> res;
         if (num.length() == 0)
             return res;
 
-        goal = target;
-        s = num;
-        n = num.length();
-        s += '#';
-        status = vector<int>(n,0);
+        for (int i = 0; i < num.length(); ++i)
+        {
+            string tmp = num.substr(0,i+1);
+            int k = stol(tmp); // stol() is in <string>
+            if (to_string(k).length() != i+1)
+                break;
 
-        pred['+'] = pred['-'] = 0;
-        pred['*'] = pred['/'] = 1;
-        pred['#'] = -1;
-
-        dfs(0);
+            dfs(i+1,tmp,num,'#',k,k,target,res);
+        }
 
         return res;
     }
 
-    void dfs(int cur)
+    void dfs(int pos,string cur,string &num,char last_operator,int last_v,int cumulative_v,int target,vector<string> &res)
     {
-    	if (cur == n-1)
-    	{
-    		convert();
-    		if (check())
-    		{
-    			t.erase(t.end()-1);
-    			res.push_back(t);
-    		}
-    		return;
-    	}
-
-        int start = 0;
-        if (s[cur] == '0' && (cur == 0 || (cur>0 && status[cur-1] != 0)))
-            start = 1;
-
-    	for (int i = 3; i >= start; --i)
-    	{
-    		status[cur] = i;
-            dfs(cur+1);
-    	}
-    }
-
-    bool check()
-    {
-    	if (!st_number.empty())
-            st_number.pop();
-        if (!st_operator.empty())
-            st_operator.pop();
-
-        for (int i = 0; i < t.length(); )
+    	if (pos == num.length() && cumulative_v == target)
+            res.push_back(cur);
+        else
         {
-            if (t[i] >= '0' && t[i] <= '9')
+            for (int i = pos; i < num.length(); ++i)
             {
-                long long d = 0;
-                while (i < t.length() && t[i] >= '0' && t[i] <= '9')
-                {
-                    d = 10*d + t[i]-'0';
-                    ++i;
-                }
-                st_number.push(d);
-            }
-            else
-            {
-                while (st_operator.size() > 0 && pred[st_operator.top()] >= pred[t[i]])
-                {
-                    if (st_number.size() < 2)
-                        return 0;
-                    
-                    long long y = st_number.top(); st_number.pop();
-                    long long x = st_number.top(); st_number.pop();
-                    char op = st_operator.top(); st_operator.pop();
-                    switch (op)
-                    {
-                        case '+':
-                            st_number.push(x+y);
-                            break;
-                        case '-':
-                            st_number.push(x-y);
-                            break;
-                        case '*':
-                            st_number.push(x*y);
-                            break;
-                        case '/':
-                            if (y == 0)
-                                return 0;
-                            st_number.push(x/y);
-                    }
-                }
-                st_operator.push(t[i]);
+                string tmp = num.substr(pos,i-pos+1);
+                int k = stol(tmp);
+                if (to_string(k).length() != i-pos+1)
+                    break;
 
-                ++i;
+                dfs(i+1,cur+"+"+tmp,num,'+',k,cumulative_v+k,target,res);
+                dfs(i+1,cur+"-"+tmp,num,'-',k,cumulative_v-k,target,res);
+
+                int new_v = last_operator == '+' ? cumulative_v-last_v+last_v*k
+                            : last_operator == '-' ? cumulative_v+last_v-last_v*k
+                            : last_v*k;
+                dfs(i+1,cur+"*"+tmp,num,last_operator,last_v*k,new_v,target,res);
             }
         }
-
-    	return (st_number.top() == goal);
-    }
-
-    void convert()
-    {
-    	int sum = 1;
-    	t = s;
-    	for (int i = 0; i < n; ++i)
-    	{
-    		if (status[i] == 0)
-    			continue;
-
-    		if (status[i] == 1)
-    			t.insert(i+sum,1,'+');
-    		else
-    		if (status[i] == 2)
-    			t.insert(i+sum,1,'-');
-    		else
-    			t.insert(i+sum,1,'*');
-    		++sum;
-    	}
     }
 };
 
 int main(int argc, char const *argv[])
 {
     Solution s;
-    vector<string> res = s.addOperators("00",0);
+   // vector<string> res = s.addOperators("00",0);
+   // vector<string> res = s.addOperators("123",6);
+   // vector<string> res = s.addOperators("123456789",45);
+    vector<string> res = s.addOperators("12345",30);
+
     cout << res.size() << endl;
     for (int i = 0; i < res.size(); ++i)
     {
