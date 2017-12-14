@@ -1,3 +1,5 @@
+// Part of bucket sort.
+
 #include <iostream>
 #include <vector>
 #include <set>
