@@ -1,3 +1,4 @@
+// unfinished.
 class WordFilter {
 public:
 	int n = 0;
