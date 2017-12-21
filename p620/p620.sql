@@ -1,0 +1,1 @@
+SELECT * FROM cinema WHERE id mod 2 = 1 and description != 'boring' ORDER BY rating DESC;
