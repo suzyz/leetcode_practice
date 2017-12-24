@@ -40,6 +40,7 @@ public:
         TreeNode *l = convert(st,mid-1,head);
         TreeNode *root = new TreeNode(head->val);
         head = head->next;
+        root->left = l;
         root->right = convert(mid+1,en,head);
 
     	return root;
