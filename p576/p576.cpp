@@ -1,13 +1,11 @@
 class Solution {
 public:
 	const int mo = 1000000007;
-	bool vis[52][52][52];
 	int f[52][52][52];
 
     int findPaths(int m, int n, int N, int i, int j) {
         
-        memset(vis,0,sizeof(vis));
-        memset(f,0,sizeof(f));
+        memset(f,-1,sizeof(f));
 
         return dfs(N,i+1,j+1,m,n);
     }
@@ -20,12 +18,10 @@ public:
     	if (steps == 0)
     		return 0;
 
-    	if (vis[steps][x][y])
+    	if (f[steps][x][y] >= 0)
     		return f[steps][x][y];
 
-    	vis[steps][x][y] = true;
-
-    	long long sum = dfs(steps-1,x+1,y,m,n) + 
+    	long long sum = (long long)dfs(steps-1,x+1,y,m,n) + 
     					dfs(steps-1,x-1,y,m,n) + 
     					dfs(steps-1,x,y+1,m,n) + 
     					dfs(steps-1,x,y-1,m,n);
