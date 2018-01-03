@@ -4,6 +4,86 @@
 		"selected_items":
 		[
 			[
+				"re",
+				"reversed_t2"
+			],
+			[
+				"rev",
+				"reversed_h2"
+			],
+			[
+				"va",
+				"val"
+			],
+			[
+				"pri",
+				"priority_queue"
+			],
+			[
+				"not",
+				"not_rob"
+			],
+			[
+				"rob",
+				"rob_last"
+			],
+			[
+				"max",
+				"maximalRectangle"
+			],
+			[
+				"be",
+				"beginend\t$1.begin(), $1.end()"
+			],
+			[
+				"beg",
+				"begin"
+			],
+			[
+				"buck",
+				"buckets"
+			],
+			[
+				"ro",
+				"root"
+			],
+			[
+				"pa",
+				"path_sum_from_root"
+			],
+			[
+				"bin",
+				"binary_tree_paths"
+			],
+			[
+				"int",
+				"intervals"
+			],
+			[
+				"nu",
+				"num1"
+			],
+			[
+				"candid",
+				"candidates"
+			],
+			[
+				"j",
+				"fullJustify"
+			],
+			[
+				"Nest",
+				"NestedInteger"
+			],
+			[
+				"nes",
+				"nestedList"
+			],
+			[
+				"pu",
+				"push_back"
+			],
+			[
 				"n",
 				"num1"
 			],
@@ -14,10 +94,6 @@
 			[
 				"nest",
 				"nested_list"
-			],
-			[
-				"max",
-				"max_neg"
 			],
 			[
 				"du",
@@ -75,6 +151,69 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "p32/p32.cpp",
+			"settings":
+			{
+				"buffer_size": 1008,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "p654/p654.cpp",
+			"settings":
+			{
+				"buffer_size": 734,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "p437/p437.cpp",
+			"settings":
+			{
+				"buffer_size": 744,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "p126/p126_2.cpp",
+			"settings":
+			{
+				"buffer_size": 1645,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "p287/p287.cpp",
+			"settings":
+			{
+				"buffer_size": 115,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "p395/p395.cpp",
+			"settings":
+			{
+				"buffer_size": 908,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "p685/p685.cpp",
+			"settings":
+			{
+				"buffer_size": 347,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/Java/JavaC.sublime-build",
 	"build_system_choices":
@@ -99,7 +238,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 307.0,
+		"height": 392.0,
 		"last_filter": ":w",
 		"selected_items":
 		[
@@ -129,143 +268,144 @@
 	"expanded_folders":
 	[
 		"/Users/apple/leetcode_practice",
-		"/Users/apple/leetcode_practice/p160",
-		"/Users/apple/leetcode_practice/p279",
-		"/Users/apple/leetcode_practice/p282",
-		"/Users/apple/leetcode_practice/p380",
-		"/Users/apple/leetcode_practice/p474",
-		"/Users/apple/leetcode_practice/p72"
+		"/Users/apple/leetcode_practice/p187",
+		"/Users/apple/leetcode_practice/p287",
+		"/Users/apple/leetcode_practice/p485",
+		"/Users/apple/leetcode_practice/p538",
+		"/Users/apple/leetcode_practice/p547",
+		"/Users/apple/leetcode_practice/p695",
+		"/Users/apple/leetcode_practice/p84"
 	],
 	"file_history":
 	[
-		"/Users/apple/leetcode_practice/p474/p474.cpp",
+		"/Users/apple/leetcode_practice/p301/p301.cpp",
+		"/Users/apple/leetcode_practice/p114/p114_2.cpp",
+		"/Users/apple/leetcode_practice/p309/p309_2.cpp",
+		"/Users/apple/leetcode_practice/p309/p309.cpp",
+		"/Users/apple/leetcode_practice/p547/p547.cpp",
+		"/Users/apple/leetcode_practice/p576/p576.cpp",
+		"/Users/apple/leetcode_practice/p673/p673_2.cpp",
+		"/Users/apple/leetcode_practice/p673/p673.cpp",
+		"/Users/apple/leetcode_practice/p410/p410_2.cpp",
+		"/Users/apple/leetcode_practice/p410/p410.cpp",
+		"/Users/apple/leetcode_practice/p657/p657.cpp",
+		"/Users/apple/leetcode_practice/p538/p538.cpp",
+		"/Users/apple/leetcode_practice/p394/p394.cpp",
+		"/Users/apple/leetcode_practice/p733/p733.cpp",
+		"/Users/apple/leetcode_practice/p219/p219.cpp",
+		"/Users/apple/leetcode_practice/p695/p695.cpp",
+		"/Users/apple/leetcode_practice/p485/p485.cpp",
+		"/Users/apple/leetcode_practice/p731/p731.cpp",
+		"/Users/apple/Desktop/2017秋数据挖掘论文/bank/bank-names.txt",
+		"/Users/apple/Desktop/2017秋数据挖掘论文/bank/bank.csv",
+		"/Users/apple/Desktop/2017秋数据挖掘论文/bank/bank-full.csv",
+		"/Users/apple/leetcode_practice/p729/p729_2.cpp",
+		"/Users/apple/leetcode_practice/p729/p729.cpp",
+		"/Users/apple/Desktop/poker-hand-training-true.data",
+		"/Users/apple/2017秋季数据挖掘/期末课程论文格式模板.docx",
+		"/Users/apple/leetcode_practice/p645/p645.cpp",
+		"/Users/apple/leetcode_practice/p92/p92.cpp",
+		"/Users/apple/leetcode_practice/p109/p109_2.cpp",
+		"/Users/apple/leetcode_practice/p109/p109.cpp",
+		"/Users/apple/leetcode_practice/p117/p117.cpp",
+		"/Users/apple/leetcode_practice/p450/p450.cpp",
+		"/Users/apple/leetcode_practice/p508/p508_2.cpp",
+		"/Users/apple/leetcode_practice/p508/p508.cpp",
+		"/Users/apple/leetcode_practice/p226/p226.cpp",
+		"/Users/apple/leetcode_practice/p501/p501.cpp",
+		"/Users/apple/leetcode_practice/p563/p563.cpp",
+		"/Users/apple/leetcode_practice/p637/p637.cpp",
+		"/Users/apple/leetcode_practice/p526/p526.cpp",
+		"/Users/apple/leetcode_practice/p515/p515_2.cpp",
+		"/Users/apple/leetcode_practice/p515/p515.cpp",
+		"/Users/apple/leetcode_practice/p620/p620.sql",
+		"/Users/apple/leetcode_practice/p419/p419.cpp",
+		"/Users/apple/leetcode_practice/p295/p295.cpp",
+		"/Users/apple/leetcode_practice/p116/p116.cpp",
+		"/Users/apple/leetcode_practice/p84/p84.cpp",
+		"/Users/apple/leetcode_practice/p321/p321.cpp",
+		"/Users/apple/leetcode_practice/p389/p389_2.cpp",
+		"/Users/apple/leetcode_practice/p389/p389.cpp",
+		"/Users/apple/leetcode_practice/p561/p561.cpp",
+		"/Users/apple/leetcode_practice/p292/p292.cpp",
+		"/Users/apple/leetcode_practice/p303/p303.cpp",
+		"/Users/apple/leetcode_practice/p312/p312.cpp",
+		"/Users/apple/leetcode_practice/p312/p312_2.cpp",
+		"/Users/apple/leetcode_practice/p264/p264.cpp",
+		"/Users/apple/leetcode_practice/p213/p213.cpp",
+		"/Users/apple/leetcode_practice/p221/p221.cpp",
+		"/Users/apple/leetcode_practice/p132/p132.cpp",
+		"/Users/apple/leetcode_practice/p222/p222.cpp",
+		"/Users/apple/leetcode_practice/p745/p745.cpp",
+		"/Users/apple/leetcode_practice/p543/p543.cpp",
+		"/Users/apple/leetcode_practice/p543/p543_2.cpp",
+		"/Users/apple/leetcode_practice/p337/p337.cpp",
+		"/Users/apple/leetcode_practice/p513/p513.cpp",
+		"/Users/apple/leetcode_practice/p669/p669.cpp",
+		"/Users/apple/leetcode_practice/p617/p617.cpp",
+		"/Users/apple/leetcode_practice/p290/p290.cpp",
+		"/Users/apple/leetcode_practice/p233/p233.cpp",
+		"/Users/apple/leetcode_practice/p263/p263.cpp",
+		"/Users/apple/leetcode_practice/p174/p174.cpp",
+		"/Users/apple/leetcode_practice/p225/p225.cpp",
+		"/Users/apple/leetcode_practice/p187/p187.cpp",
+		"/Users/apple/leetcode_practice/p173/p173.cpp",
+		"/Users/apple/leetcode_practice/p169/p169.cpp",
+		"/Users/apple/leetcode_practice/p87/p87.cpp",
+		"/Users/apple/leetcode_practice/p188/p188.cpp",
+		"/Users/apple/leetcode_practice/p85/p85.cpp",
+		"/Users/apple/leetcode_practice/p413/p413.cpp",
+		"/Users/apple/leetcode_practice/p461/p461.cpp",
+		"/Users/apple/leetcode_practice/p392/p392_2.cpp",
+		"/Users/apple/leetcode_practice/p392/p392.cpp",
+		"/Users/apple/leetcode_practice/p403/p403_2.cpp",
+		"/Users/apple/leetcode_practice/p403/p403.cpp",
+		"/Users/apple/leetcode_practice/p115/p115.cpp",
+		"/Users/apple/leetcode_practice/p662/p662.cpp",
+		"/Users/apple/leetcode_practice/p97/p97.cpp",
+		"/Users/apple/leetcode_practice/p129/p129.cpp",
+		"/Users/apple/leetcode_practice/p128/p128_2.cpp",
+		"/Users/apple/leetcode_practice/p128/p128.cpp",
+		"/Users/apple/leetcode_practice/p126/p126.cpp",
+		"/Users/apple/leetcode_practice/p417/p417.cpp",
+		"/Users/apple/leetcode_practice/p164/p164_2.cpp",
+		"/Users/apple/leetcode_practice/p164/p164.cpp",
+		"/Users/apple/leetcode_practice/p404/p404.cpp",
+		"/Users/apple/leetcode_practice/p342/p342.cpp",
+		"/Users/apple/leetcode_practice/p154/p154.cpp",
+		"/Users/apple/leetcode_practice/p153/p153.cpp",
+		"/Users/apple/leetcode_practice/p151/p151.cpp",
+		"/Users/apple/leetcode_practice/p209/p209.cpp",
+		"/Users/apple/leetcode_practice/p329/p329.cpp",
+		"/Users/apple/leetcode_practice/p315/p315.cpp",
+		"/Users/apple/leetcode_practice/p239/p239.cpp",
+		"/Users/apple/leetcode_practice/p240/p240.cpp",
+		"/Users/apple/leetcode_practice/p43/p43_2.cpp",
+		"/Users/apple/leetcode_practice/p268/p268.cpp",
+		"/Users/apple/leetcode_practice/p268/p268_2.cpp",
+		"/Users/apple/leetcode_practice/p268/p268_3.cpp",
+		"/Users/apple/leetcode_practice/p257/p257.cpp",
+		"/Users/apple/leetcode_practice/p205/p205.cpp",
+		"/Users/apple/leetcode_practice/p282/p282_2.cpp",
 		"/Users/apple/leetcode_practice/p282/p282.cpp",
-		"/Users/apple/leetcode_practice/p64/p64.cpp",
-		"/Users/apple/leetcode_practice/p72/p72_2.cpp",
-		"/Users/apple/leetcode_practice/p72/p72.cpp",
-		"/Users/apple/leetcode_practice/p207/p207_2.cpp",
-		"/Users/apple/leetcode_practice/p207/p207.cpp",
-		"/Users/apple/leetcode_practice/p415/p415.cpp",
-		"/Users/apple/leetcode_practice/p279/p279.cpp",
-		"/Users/apple/leetcode_practice/p326/p326.cpp",
-		"/Users/apple/leetcode_practice/p160/p160.cpp",
-		"/Users/apple/leetcode_practice/p140/p140.cpp",
-		"/Users/apple/leetcode_practice/p380/p380.cpp",
-		"/Users/apple/leetcode_practice/p152/p152_2.cpp",
-		"/Users/apple/leetcode_practice/p234/p234_2.cpp",
-		"/Users/apple/leetcode_practice/p234/p234.cpp",
-		"/Users/apple/leetcode_practice/p341/p341.cpp",
-		"/Users/apple/leetcode_practice/p191/p191.cpp",
-		"/Users/apple/leetcode_practice/p215/p215_2.cpp",
-		"/Users/apple/leetcode_practice/p215/p215.cpp",
-		"/Users/apple/leetcode_practice/p206/p206_2.cpp",
-		"/Users/apple/leetcode_practice/p242/p242_2.cpp",
-		"/Users/apple/leetcode_practice/p242/p242.cpp",
-		"/Users/apple/leetcode_practice/p206/p206.cpp",
-		"/Users/apple/leetcode_practice/p150/p150.cpp",
-		"/Users/apple/leetcode_practice/p152/p152.cpp",
-		"/Users/apple/leetcode_practice/p79/p79.cpp",
-		"/Users/apple/leetcode_practice/p162/p162.cpp",
-		"/Users/apple/leetcode_practice/p217/p217.cpp",
-		"/Users/apple/leetcode_practice/p328/p328_2.cpp",
-		"/Users/apple/leetcode_practice/p328/p328.cpp",
-		"/Users/apple/leetcode_practice/p230/p230_2.cpp",
-		"/Users/apple/leetcode_practice/p230/p230.cpp",
-		"/Users/apple/leetcode_practice/p237/p237.cpp",
-		"/Users/apple/leetcode_practice/p237/p237_2.cpp",
-		"/Users/apple/leetcode_practice/p283/p283.cpp",
-		"/Users/apple/leetcode_practice/p65/p65.cpp",
-		"/Users/apple/leetcode_practice/p139/p139_2.cpp",
-		"/Users/apple/leetcode_practice/p139/p139.cpp",
-		"/Users/apple/leetcode_practice/p378/p378_3.cpp",
-		"/Users/apple/leetcode_practice/p378/p378_2.cpp",
-		"/Users/apple/leetcode_practice/p378/p378.cpp",
-		"/Users/apple/leetcode_practice/p98/p98_2.cpp",
-		"/Users/apple/leetcode_practice/p98/p98.cpp",
-		"/Users/apple/leetcode_practice/p78/p78.cpp",
-		"/Users/apple/leetcode_practice/p347/p347.cpp",
-		"/Users/apple/leetcode_practice/p210/p210.cpp",
-		"/Users/apple/leetcode_practice/p208/p208.cpp",
-		"/Users/apple/leetcode_practice/p76/p76.cpp",
-		"/Users/apple/leetcode_practice/p146/p146_2.cpp",
-		"/Users/apple/leetcode_practice/p146/p146.cpp",
-		"/Users/apple/leetcode_practice/p179/p179.cpp",
-		"/Users/apple/leetcode_practice/p166/p166.cpp",
-		"/Users/apple/leetcode_practice/p322/p322.cpp",
-		"/Users/apple/leetcode_practice/p130/p130_2.cpp",
-		"/Users/apple/leetcode_practice/p130/p130.cpp",
-		"/Users/apple/leetcode_practice/p200/p200.cpp",
-		"/Users/apple/leetcode_practice/p289/p289.cpp",
-		"/Users/apple/leetcode_practice/p238/p238.cpp",
-		"/Users/apple/leetcode_practice/p344/p344.cpp",
-		"/Users/apple/leetcode_practice/p198/p198.cpp",
-		"/Users/apple/leetcode_practice/p172/p172.cpp",
-		"/Users/apple/leetcode_practice/p324/p324.cpp",
-		"/Users/apple/leetcode_practice/p371/p371.cpp",
-		"/Users/apple/leetcode_practice/p103/p103.cpp",
-		"/Users/apple/leetcode_practice/p148/p148.cpp",
-		"/Users/apple/leetcode_practice/p384/p384.cpp",
-		"/Users/apple/leetcode_practice/p387/p387.cpp",
-		"/Users/apple/leetcode_practice/p202/p202_2.cpp",
-		"/Users/apple/leetcode_practice/p202/p202.cpp",
-		"/Users/apple/leetcode_practice/p108/p108.cpp",
-		"/Users/apple/leetcode_practice/p204/p204.cpp",
-		"/Users/apple/leetcode_practice/p149/p149.cpp",
-		"/Users/apple/leetcode_practice/p190/p190.cpp",
-		"/Users/apple/leetcode_practice/p155/p155.cpp",
-		"/Users/apple/leetcode_practice/p189/p189.cpp",
-		"/Users/apple/leetcode_practice/p196/p196.sql",
-		"/Users/apple/leetcode_practice/p665/p665.cpp",
-		"/Users/apple/leetcode_practice/p107/p107_2.cpp",
-		"/Users/apple/leetcode_practice/p107/p107.cpp",
-		"/Users/apple/leetcode_practice/p310/p310_2.cpp",
-		"/Users/apple/leetcode_practice/p310/p310.cpp",
-		"/Users/apple/leetcode_practice/p454/p454_2.cpp",
-		"/Users/apple/leetcode_practice/p300/p300.cpp",
-		"/Users/apple/leetcode_practice/p99/p99.cpp",
-		"/Users/apple/leetcode_practice/p454/p454.cpp",
-		"/Users/apple/leetcode_practice/p118/p118.cpp",
-		"/Users/apple/leetcode_practice/p44/p44_2.cpp",
-		"/Users/apple/leetcode_practice/p141/p141.cpp",
-		"/Users/apple/leetcode_practice/p412/p412.cpp",
-		"/Users/apple/leetcode_practice/p44/p44.cpp",
-		"/Users/apple/leetcode_practice/p236/p236_2.cpp",
-		"/Users/apple/leetcode_practice/p236/p236.cpp",
-		"/Users/apple/leetcode_practice/p686/p686.cpp",
+		"/Users/apple/leetcode_practice/p464/p464.cpp",
+		"/Users/apple/leetcode_practice/p201/p201.cpp",
+		"/Users/apple/leetcode_practice/p203/p203.cpp",
+		"/Users/apple/leetcode_practice/p80/p80_2.cpp",
+		"/Users/apple/leetcode_practice/p77/p77.cpp",
+		"/Users/apple/leetcode_practice/p80/p80.cpp",
+		"/Users/apple/leetcode_practice/p399/p399.cpp",
+		"/Users/apple/leetcode_practice/p400/p400.cpp",
+		"/Users/apple/leetcode_practice/p231/p231.cpp",
+		"/Users/apple/leetcode_practice/p93/p93.cpp",
+		"/Users/apple/leetcode_practice/p90/p90_2.cpp",
+		"/Users/apple/leetcode_practice/p90/p90.cpp",
+		"/Users/apple/leetcode_practice/p82/p82.cpp",
+		"/Users/apple/leetcode_practice/p82/p82_2.cpp",
+		"/Users/apple/leetcode_practice/p57/p57.cpp",
 		"/Users/apple/leetcode_practice/p57/p57.java",
-		"/Users/apple/leetcode_practice/p235/p235.cpp",
-		"/Users/apple/leetcode_practice/p91/p91.cpp",
-		"/Users/apple/leetcode_practice/p30/p30.cpp",
-		"/Users/apple/leetcode_practice/p30/p30.java",
-		"/Users/apple/leetcode_practice/p73/p73.java",
-		"/Users/apple/leetcode_practice/p123/p123_2.java",
-		"/Users/apple/leetcode_practice/p123/p123.java",
-		"/Users/apple/leetcode_practice/p122/p122.java",
-		"/Users/apple/leetcode_practice/p75/p75.java",
-		"/Users/apple/leetcode_practice/p75/p75_2.java",
-		"/Users/apple/leetcode_practice/p75/p75_3.java",
-		"/Users/apple/leetcode_practice/p62/p62.java",
-		"/Users/apple/leetcode_practice/p89/p89.java",
-		"/Users/apple/leetcode_practice/p96/p96.java",
-		"/Users/apple/leetcode_practice/p41/p41.java",
-		"/Users/apple/leetcode_practice/p94/p94_2.java",
-		"/Users/apple/leetcode_practice/p94/p94.java",
-		"/Users/apple/leetcode_practice/p45/p45.java",
-		"/Users/apple/leetcode_practice/p47/p47.java",
-		"/Users/apple/leetcode_practice/p46/p46.java",
-		"/Users/apple/leetcode_practice/p60/p60.java",
-		"/Users/apple/leetcode_practice/p61/p61.java",
-		"/Users/apple/leetcode_practice/p101/p101.java",
-		"/Users/apple/leetcode_practice/p101/p101_2.java",
-		"/Users/apple/leetcode_practice/p56/p56_2.java",
-		"/Users/apple/leetcode_practice/p56/p56.java",
-		"/Users/apple/leetcode_practice/p59/p59.java",
-		"/Users/apple/leetcode_practice/p48/p48.java",
-		"/Users/apple/leetcode_practice/p125/p125.java",
-		"/Users/apple/leetcode_practice/p52/p52_2.java",
-		"/Users/apple/leetcode_practice/p52/p52.java",
-		"/Users/apple/leetcode_practice/p51/p51.java",
-		"/Users/apple/leetcode_practice/p37/p37.java"
+		"/Users/apple/leetcode_practice/p42/p42_2.cpp",
+		"/Users/apple/leetcode_practice/p42/p42.cpp"
 	],
 	"find":
 	{
@@ -284,6 +424,30 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"j",
+			"f[i-2]",
+			"f[n-1]",
+			"f[i-1]",
+			"f[i]",
+			"last_sell",
+			">>",
+			"<TreeNode *>",
+			"q1",
+			"f[pre]",
+			"f[cur]",
+			"\"",
+			"f[i]",
+			">>",
+			"ans",
+			"tmp",
+			"lastv",
+			">>",
+			"       \t\t\n",
+			"intervals",
+			"st",
+			"last",
+			"flag",
+			"nestediterator",
 			"ind",
 			"rem",
 			"stack",
@@ -315,6 +479,25 @@
 		"regex": false,
 		"replace_history":
 		[
+			"st",
+			"cool_last_sell",
+			"last_sell",
+			"last_buy",
+			"> >",
+			"<TreeNode *,int>",
+			"q",
+			"f",
+			"'",
+			"f[pre]",
+			"> >",
+			"res",
+			"smaller",
+			"last_v",
+			"> >",
+			"res",
+			"h",
+			"tmp",
+			"is_same",
 			"pre",
 			"carry",
 			"nums",
@@ -343,8 +526,215 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "p32/p32.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1008,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								495,
+								495
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "p654/p654.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 734,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								584,
+								584
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "p437/p437.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 744,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								625,
+								625
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "p126/p126_2.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1645,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								514,
+								514
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "p287/p287.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 115,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								104,
+								104
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "p395/p395.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 908,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								786,
+								786
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "p685/p685.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 347,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								347,
+								347
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
