@@ -1,3 +1,4 @@
+// Using slices. Faster than p32.go
 func longestValidParentheses(s string) int {
 	var q []int
 	ans := 0

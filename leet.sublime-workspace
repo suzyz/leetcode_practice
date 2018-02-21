@@ -152,29 +152,19 @@
 	"buffers":
 	[
 		{
-			"file": "p32/p32.cpp",
-			"settings":
-			{
-				"buffer_size": 1008,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "p463/p463.cpp",
-			"settings":
-			{
-				"buffer_size": 675,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "p654/p654.cpp",
 			"settings":
 			{
 				"buffer_size": 734,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/apple/Library/Application Support/Sublime Text 3/Packages/GoSublime/CHANGELOG.md",
+			"settings":
+			{
+				"buffer_size": 36536,
 				"line_ending": "Unix"
 			}
 		},
@@ -256,11 +246,11 @@
 				":w - Save"
 			]
 		],
-		"width": 449.0
+		"width": 467.0
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 216.0,
 		"history":
 		[
 		]
@@ -280,16 +270,27 @@
 		"/Users/apple/leetcode_practice/p167",
 		"/Users/apple/leetcode_practice/p187",
 		"/Users/apple/leetcode_practice/p287",
-		"/Users/apple/leetcode_practice/p3",
-		"/Users/apple/leetcode_practice/p463",
 		"/Users/apple/leetcode_practice/p485",
 		"/Users/apple/leetcode_practice/p538",
 		"/Users/apple/leetcode_practice/p547",
+		"/Users/apple/leetcode_practice/p572",
+		"/Users/apple/leetcode_practice/p606",
 		"/Users/apple/leetcode_practice/p695",
 		"/Users/apple/leetcode_practice/p84"
 	],
 	"file_history":
 	[
+		"/Users/apple/plot_test.R",
+		"/Users/apple/leetcode_practice/p32/p32.go",
+		"/Users/apple/leetcode_practice/p32/p32_2.go",
+		"/Users/apple/leetcode_practice/p32/p32.cpp",
+		"/Users/apple/leetcode_practice/p32/p32_1.cpp",
+		"/Users/apple/leetcode_practice/p594/p594.go",
+		"/Users/apple/leetcode_practice/p746/p746.go",
+		"/Users/apple/leetcode_practice/p463/p463.cpp",
+		"/Users/apple/leetcode_practice/p606/p606.go",
+		"/Users/apple/leetcode_practice/p572/p572.go",
+		"/Users/apple/leetcode_practice/p81/p81.go",
 		"/Users/apple/leetcode_practice/p167/p167.go",
 		"/Users/apple/Library/Application Support/Sublime Text 3/Packages/User/GoSublime.sublime-settings",
 		"/Users/apple/leetcode_practice/p3/p3.go",
@@ -406,18 +407,7 @@
 		"/Users/apple/leetcode_practice/p282/p282_2.cpp",
 		"/Users/apple/leetcode_practice/p282/p282.cpp",
 		"/Users/apple/leetcode_practice/p464/p464.cpp",
-		"/Users/apple/leetcode_practice/p201/p201.cpp",
-		"/Users/apple/leetcode_practice/p203/p203.cpp",
-		"/Users/apple/leetcode_practice/p80/p80_2.cpp",
-		"/Users/apple/leetcode_practice/p77/p77.cpp",
-		"/Users/apple/leetcode_practice/p80/p80.cpp",
-		"/Users/apple/leetcode_practice/p399/p399.cpp",
-		"/Users/apple/leetcode_practice/p400/p400.cpp",
-		"/Users/apple/leetcode_practice/p231/p231.cpp",
-		"/Users/apple/leetcode_practice/p93/p93.cpp",
-		"/Users/apple/leetcode_practice/p90/p90_2.cpp",
-		"/Users/apple/leetcode_practice/p90/p90.cpp",
-		"/Users/apple/leetcode_practice/p82/p82.cpp"
+		"/Users/apple/leetcode_practice/p201/p201.cpp"
 	],
 	"find":
 	{
@@ -436,6 +426,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"qlen",
 			"j",
 			"f[i-2]",
 			"f[n-1]",
@@ -491,6 +482,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"len(q)",
 			"st",
 			"cool_last_sell",
 			"last_sell",
@@ -538,71 +530,11 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "p32/p32.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1008,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								491,
-								491
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "p463/p463.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 675,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								641,
-								641
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "p654/p654.cpp",
 					"semi_transient": false,
 					"settings":
@@ -614,8 +546,8 @@
 						"selection":
 						[
 							[
-								191,
-								191
+								190,
+								190
 							]
 						],
 						"settings":
@@ -625,14 +557,43 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 321.0,
+						"translation.y": 285.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/apple/Library/Application Support/Sublime Text 3/Packages/GoSublime/CHANGELOG.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 36536,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4,
+								4
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "p437/p437.cpp",
 					"semi_transient": false,
 					"settings":
@@ -644,8 +605,8 @@
 						"selection":
 						[
 							[
-								621,
-								621
+								620,
+								620
 							]
 						],
 						"settings":
@@ -658,11 +619,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "p126/p126_2.cpp",
 					"semi_transient": false,
 					"settings":
@@ -674,36 +635,8 @@
 						"selection":
 						[
 							[
-								510,
-								510
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "p287/p287.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 115,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								100,
-								100
+								509,
+								509
 							]
 						],
 						"settings":
@@ -718,7 +651,35 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 4,
+					"file": "p287/p287.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 115,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								99,
+								99
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "p395/p395.cpp",
 					"semi_transient": false,
 					"settings":
@@ -730,8 +691,8 @@
 						"selection":
 						[
 							[
-								782,
-								782
+								781,
+								781
 							]
 						],
 						"settings":
@@ -744,11 +705,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 6,
 					"file": "p685/p685.cpp",
 					"semi_transient": false,
 					"settings":
@@ -811,9 +772,13 @@
 		]
 	},
 	"menu_visible": true,
+	"output.GoSublime-main-output":
+	{
+		"height": 178.0
+	},
 	"output.GoSublime-output":
 	{
-		"height": 399.0
+		"height": 190.0
 	},
 	"output.exec":
 	{

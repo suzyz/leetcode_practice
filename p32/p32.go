@@ -1,3 +1,5 @@
+// without using slice
+
 func longestValidParentheses(s string) int {
 	q := make([]int,len(s) + 1)
 	qlen := 0
