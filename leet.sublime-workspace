@@ -161,6 +161,24 @@
 			}
 		},
 		{
+			"file": "p127/p127.go",
+			"settings":
+			{
+				"buffer_size": 808,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "p783/p783.go",
+			"settings":
+			{
+				"buffer_size": 743,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "/Users/apple/Library/Application Support/Sublime Text 3/Packages/GoSublime/CHANGELOG.md",
 			"settings":
 			{
@@ -267,6 +285,7 @@
 	"expanded_folders":
 	[
 		"/Users/apple/leetcode_practice",
+		"/Users/apple/leetcode_practice/p127",
 		"/Users/apple/leetcode_practice/p167",
 		"/Users/apple/leetcode_practice/p187",
 		"/Users/apple/leetcode_practice/p287",
@@ -276,7 +295,7 @@
 		"/Users/apple/leetcode_practice/p572",
 		"/Users/apple/leetcode_practice/p606",
 		"/Users/apple/leetcode_practice/p695",
-		"/Users/apple/leetcode_practice/p84"
+		"/Users/apple/leetcode_practice/p783"
 	],
 	"file_history":
 	[
@@ -530,7 +549,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -546,8 +565,8 @@
 						"selection":
 						[
 							[
-								190,
-								190
+								188,
+								188
 							]
 						],
 						"settings":
@@ -560,11 +579,69 @@
 						"translation.y": 285.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "p127/p127.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 808,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								737,
+								737
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 742.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "p783/p783.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 743,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								407,
+								407
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "/Users/apple/Library/Application Support/Sublime Text 3/Packages/GoSublime/CHANGELOG.md",
 					"semi_transient": false,
 					"settings":
@@ -576,8 +653,8 @@
 						"selection":
 						[
 							[
-								4,
-								4
+								2,
+								2
 							]
 						],
 						"settings":
@@ -589,11 +666,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 4,
 					"file": "p437/p437.cpp",
 					"semi_transient": false,
 					"settings":
@@ -605,8 +682,8 @@
 						"selection":
 						[
 							[
-								620,
-								620
+								618,
+								618
 							]
 						],
 						"settings":
@@ -619,11 +696,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 5,
 					"file": "p126/p126_2.cpp",
 					"semi_transient": false,
 					"settings":
@@ -635,8 +712,8 @@
 						"selection":
 						[
 							[
-								509,
-								509
+								507,
+								507
 							]
 						],
 						"settings":
@@ -647,11 +724,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 6,
 					"file": "p287/p287.cpp",
 					"semi_transient": false,
 					"settings":
@@ -663,8 +740,8 @@
 						"selection":
 						[
 							[
-								99,
-								99
+								97,
+								97
 							]
 						],
 						"settings":
@@ -675,11 +752,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 7,
 					"file": "p395/p395.cpp",
 					"semi_transient": false,
 					"settings":
@@ -691,8 +768,8 @@
 						"selection":
 						[
 							[
-								781,
-								781
+								779,
+								779
 							]
 						],
 						"settings":
@@ -705,11 +782,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 8,
 					"file": "p685/p685.cpp",
 					"semi_transient": false,
 					"settings":
@@ -735,7 +812,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
