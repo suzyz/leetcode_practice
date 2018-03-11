@@ -1,11 +1,18 @@
-class Solution {
-public:
-    int lengthOfLongestSubstring(string s) {
-	int len=s.length();
+#include <iostream>
+#include "stdlib.h"
+
+using namespace std;
+
+int main()
+{
+	char s[100000];
+	cin>>s;
+	
+	int len=strlen(s);
 	int ans;
 	
 	if(len>0) ans=1;
-	else return 0;
+	else ans=0;
 	
 	int u[260];
 	int j,k;
@@ -20,6 +27,12 @@ public:
 		}
 		ans=ans>(k-j) ? ans:(k-j);
 	}
-    return ans;
-    }
-};
+	
+
+	cout<<ans<<endl;
+	
+	int i;
+	cin>>i;
+
+	return 0;
+}
