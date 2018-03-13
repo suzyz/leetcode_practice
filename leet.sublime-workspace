@@ -242,6 +242,7 @@
 	[
 		"/Users/apple/leetcode_practice",
 		"/Users/apple/leetcode_practice/p287",
+		"/Users/apple/leetcode_practice/p299",
 		"/Users/apple/leetcode_practice/p485",
 		"/Users/apple/leetcode_practice/p538",
 		"/Users/apple/leetcode_practice/p547",
@@ -251,6 +252,13 @@
 	],
 	"file_history":
 	[
+		"/Users/apple/leetcode_practice/p299/p299.go",
+		"/Users/apple/leetcode_practice/p390/p390.go",
+		"/Users/apple/leetcode_practice/p714/p714_2.go",
+		"/Users/apple/leetcode_practice/p714/p714.go",
+		"/Users/apple/leetcode_practice/p7/p7.go",
+		"/Users/apple/leetcode_practice/p343/p343_2.go",
+		"/Users/apple/leetcode_practice/p343/p343.go",
 		"/Users/apple/leetcode_practice/p142/p142.cpp",
 		"/Users/apple/leetcode_practice/p137/p137.go",
 		"/Users/apple/leetcode_practice/p138/p138.cpp",
@@ -371,14 +379,7 @@
 		"/Users/apple/leetcode_practice/p126/p126.cpp",
 		"/Users/apple/leetcode_practice/p417/p417.cpp",
 		"/Users/apple/leetcode_practice/p164/p164_2.cpp",
-		"/Users/apple/leetcode_practice/p164/p164.cpp",
-		"/Users/apple/leetcode_practice/p404/p404.cpp",
-		"/Users/apple/leetcode_practice/p342/p342.cpp",
-		"/Users/apple/leetcode_practice/p154/p154.cpp",
-		"/Users/apple/leetcode_practice/p153/p153.cpp",
-		"/Users/apple/leetcode_practice/p151/p151.cpp",
-		"/Users/apple/leetcode_practice/p209/p209.cpp",
-		"/Users/apple/leetcode_practice/p329/p329.cpp"
+		"/Users/apple/leetcode_practice/p164/p164.cpp"
 	],
 	"find":
 	{
@@ -523,8 +524,8 @@
 						"selection":
 						[
 							[
-								696,
-								696
+								723,
+								723
 							]
 						],
 						"settings":
@@ -534,7 +535,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 275.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -567,7 +568,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -583,8 +584,8 @@
 						"selection":
 						[
 							[
-								505,
-								505
+								504,
+								504
 							]
 						],
 						"settings":
@@ -623,7 +624,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
