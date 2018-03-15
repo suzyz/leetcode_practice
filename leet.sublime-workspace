@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"p",
+				"Println\tn int, err error ƒ"
+			],
+			[
 				"re",
 				"reversed_t2"
 			],
@@ -159,33 +163,6 @@
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
-		},
-		{
-			"file": "p437/p437.cpp",
-			"settings":
-			{
-				"buffer_size": 744,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "p126/p126_2.cpp",
-			"settings":
-			{
-				"buffer_size": 1645,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "p287/p287.cpp",
-			"settings":
-			{
-				"buffer_size": 115,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
 		}
 	],
 	"build_system": "Packages/Java/JavaC.sublime-build",
@@ -241,10 +218,9 @@
 	"expanded_folders":
 	[
 		"/Users/apple/leetcode_practice",
-		"/Users/apple/leetcode_practice/p287",
 		"/Users/apple/leetcode_practice/p299",
-		"/Users/apple/leetcode_practice/p485",
 		"/Users/apple/leetcode_practice/p538",
+		"/Users/apple/leetcode_practice/p542",
 		"/Users/apple/leetcode_practice/p547",
 		"/Users/apple/leetcode_practice/p572",
 		"/Users/apple/leetcode_practice/p606",
@@ -252,6 +228,16 @@
 	],
 	"file_history":
 	[
+		"/Users/apple/leetcode_practice/p349/p349_2.go",
+		"/Users/apple/leetcode_practice/p349/p349.go",
+		"/Users/apple/leetcode_practice/p220/p220.go",
+		"/Users/apple/leetcode_practice/p437/p437.cpp",
+		"/Users/apple/leetcode_practice/p542/p542.go",
+		"/Users/apple/leetcode_practice/p126/p126.go",
+		"/Users/apple/leetcode_practice/p126/p126_others.cpp",
+		"/Users/apple/leetcode_practice/p126/p126_2.cpp",
+		"/Users/apple/leetcode_practice/p287/p287.cpp",
+		"/Users/apple/leetcode_practice/p287/p287.go",
 		"/Users/apple/leetcode_practice/p299/p299.go",
 		"/Users/apple/leetcode_practice/p390/p390.go",
 		"/Users/apple/leetcode_practice/p714/p714_2.go",
@@ -369,17 +355,7 @@
 		"/Users/apple/leetcode_practice/p392/p392_2.cpp",
 		"/Users/apple/leetcode_practice/p392/p392.cpp",
 		"/Users/apple/leetcode_practice/p403/p403_2.cpp",
-		"/Users/apple/leetcode_practice/p403/p403.cpp",
-		"/Users/apple/leetcode_practice/p115/p115.cpp",
-		"/Users/apple/leetcode_practice/p662/p662.cpp",
-		"/Users/apple/leetcode_practice/p97/p97.cpp",
-		"/Users/apple/leetcode_practice/p129/p129.cpp",
-		"/Users/apple/leetcode_practice/p128/p128_2.cpp",
-		"/Users/apple/leetcode_practice/p128/p128.cpp",
-		"/Users/apple/leetcode_practice/p126/p126.cpp",
-		"/Users/apple/leetcode_practice/p417/p417.cpp",
-		"/Users/apple/leetcode_practice/p164/p164_2.cpp",
-		"/Users/apple/leetcode_practice/p164/p164.cpp"
+		"/Users/apple/leetcode_practice/p403/p403.cpp"
 	],
 	"find":
 	{
@@ -398,6 +374,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"tmp",
+			"wordsList",
+			"endwords",
+			"beginwords",
+			"word",
+			"loc2",
+			"loc1",
+			"byte",
 			"copyRandomList",
 			"cur",
 			"res",
@@ -457,6 +441,14 @@
 		"regex": false,
 		"replace_history":
 		[
+			"newWord",
+			"wordList",
+			"endword",
+			"beginword",
+			"words",
+			"m2",
+			"m1",
+			"rune",
 			"RandomListNode",
 			"p",
 			"m",
@@ -524,8 +516,8 @@
 						"selection":
 						[
 							[
-								723,
-								723
+								527,
+								527
 							]
 						],
 						"settings":
@@ -535,96 +527,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 275.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "p437/p437.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 744,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								618,
-								618
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "p126/p126_2.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1645,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								504,
-								504
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "p287/p287.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 115,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								97,
-								97
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]

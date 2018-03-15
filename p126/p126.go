@@ -1,3 +1,4 @@
+// Bidirectional BFS
 package main
 
 import (
