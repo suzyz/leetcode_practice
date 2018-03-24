@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"func",
+				"func (*point)\tfunc (...) {...} ʂ"
+			],
+			[
+				"fun",
+				"func (*stack)\tfunc (...) {...} ʂ"
+			],
+			[
 				"null",
 				"NULL"
 			],
@@ -167,24 +175,6 @@
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
-		},
-		{
-			"file": "p491/p491.go",
-			"settings":
-			{
-				"buffer_size": 655,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "p581/p581.go",
-			"settings":
-			{
-				"buffer_size": 202,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
 		}
 	],
 	"build_system": "Packages/Java/JavaC.sublime-build",
@@ -240,19 +230,29 @@
 	"expanded_folders":
 	[
 		"/Users/apple/leetcode_practice",
-		"/Users/apple/leetcode_practice/p297",
 		"/Users/apple/leetcode_practice/p376",
-		"/Users/apple/leetcode_practice/p581",
+		"/Users/apple/leetcode_practice/p491",
 		"/Users/apple/leetcode_practice/p696"
 	],
 	"file_history":
 	[
+		"/Users/apple/leetcode_practice/p212/p212.go",
+		"/Volumes/HDD1/Go语言/老男孩go语言一期/L007-Go语言/project/src/go_dev/day6/homework/model/stu.go",
+		"/Volumes/HDD1/Go语言/老男孩go语言一期/L007-Go语言/project/src/go_dev/day6/homework/model/book.go",
+		"/Users/apple/leetcode_practice/p491/p491_3.go",
+		"/Users/apple/leetcode_practice/p491/p491.cpp",
+		"/Users/apple/leetcode_practice/p224/p224.go",
+		"/Users/apple/leetcode_practice/p224/p224_2.go",
+		"/Users/apple/leetcode_practice/p491/p491.go",
+		"/Users/apple/leetcode_practice/p491/p491_2.go",
+		"/Users/apple/Library/Application Support/Sublime Text 3/Packages/GoSublime/CHANGELOG.md",
+		"/Users/apple/leetcode_practice/p581/p581_2.go",
+		"/Users/apple/leetcode_practice/p581/p581.go",
 		"/Users/apple/leetcode_practice/p696/p696_2.go",
 		"/Users/apple/leetcode_practice/p696/p696.go",
 		"/Users/apple/leetcode_practice/p376/p376_2.go",
 		"/Users/apple/leetcode_practice/p376/p376.go",
 		"/Users/apple/leetcode_practice/p449/p449.cpp",
-		"/Users/apple/Library/Application Support/Sublime Text 3/Packages/GoSublime/CHANGELOG.md",
 		"/Users/apple/leetcode_practice/p297/p297.cpp",
 		"/Users/apple/leetcode_practice/p297/p297.go",
 		"/Users/apple/leetcode_practice/p741/p741.go",
@@ -363,18 +363,7 @@
 		"/Users/apple/leetcode_practice/p116/p116.cpp",
 		"/Users/apple/leetcode_practice/p84/p84.cpp",
 		"/Users/apple/leetcode_practice/p321/p321.cpp",
-		"/Users/apple/leetcode_practice/p389/p389_2.cpp",
-		"/Users/apple/leetcode_practice/p389/p389.cpp",
-		"/Users/apple/leetcode_practice/p561/p561.cpp",
-		"/Users/apple/leetcode_practice/p292/p292.cpp",
-		"/Users/apple/leetcode_practice/p303/p303.cpp",
-		"/Users/apple/leetcode_practice/p312/p312.cpp",
-		"/Users/apple/leetcode_practice/p312/p312_2.cpp",
-		"/Users/apple/leetcode_practice/p264/p264.cpp",
-		"/Users/apple/leetcode_practice/p213/p213.cpp",
-		"/Users/apple/leetcode_practice/p221/p221.cpp",
-		"/Users/apple/leetcode_practice/p132/p132.cpp",
-		"/Users/apple/leetcode_practice/p222/p222.cpp"
+		"/Users/apple/leetcode_practice/p389/p389_2.cpp"
 	],
 	"find":
 	{
@@ -532,7 +521,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -548,72 +537,13 @@
 						"selection":
 						[
 							[
-								526,
-								526
+								524,
+								524
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "p491/p491.go",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 655,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								652,
-								652
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "p581/p581.go",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 202,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								193,
-								193
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Go/Go.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
