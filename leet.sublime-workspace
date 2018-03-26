@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"p",
+				"Println\tn int, err error ƒ"
+			],
+			[
 				"func",
 				"func (*point)\tfunc (...) {...} ʂ"
 			],
@@ -18,10 +22,6 @@
 			[
 				"nu",
 				"NULL"
-			],
-			[
-				"p",
-				"Println\tn int, err error ƒ"
 			],
 			[
 				"re",
@@ -171,7 +171,7 @@
 			"file": "p654/p654.cpp",
 			"settings":
 			{
-				"buffer_size": 734,
+				"buffer_size": 735,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -230,12 +230,16 @@
 	"expanded_folders":
 	[
 		"/Users/apple/leetcode_practice",
-		"/Users/apple/leetcode_practice/p376",
-		"/Users/apple/leetcode_practice/p491",
-		"/Users/apple/leetcode_practice/p696"
+		"/Users/apple/leetcode_practice/p654"
 	],
 	"file_history":
 	[
+		"/Users/apple/leetcode_practice/p664/p664.go",
+		"/Users/apple/leetcode_practice/p391/p391_2.go",
+		"/Users/apple/leetcode_practice/p391/p391.go",
+		"/Users/apple/leetcode_practice/p381/p381.go",
+		"/Users/apple/leetcode_practice/p696/p696_2.go",
+		"/Users/apple/leetcode_practice/p654/p654.cpp",
 		"/Users/apple/leetcode_practice/p212/p212.go",
 		"/Volumes/HDD1/Go语言/老男孩go语言一期/L007-Go语言/project/src/go_dev/day6/homework/model/stu.go",
 		"/Volumes/HDD1/Go语言/老男孩go语言一期/L007-Go语言/project/src/go_dev/day6/homework/model/book.go",
@@ -248,7 +252,6 @@
 		"/Users/apple/Library/Application Support/Sublime Text 3/Packages/GoSublime/CHANGELOG.md",
 		"/Users/apple/leetcode_practice/p581/p581_2.go",
 		"/Users/apple/leetcode_practice/p581/p581.go",
-		"/Users/apple/leetcode_practice/p696/p696_2.go",
 		"/Users/apple/leetcode_practice/p696/p696.go",
 		"/Users/apple/leetcode_practice/p376/p376_2.go",
 		"/Users/apple/leetcode_practice/p376/p376.go",
@@ -358,12 +361,7 @@
 		"/Users/apple/leetcode_practice/p515/p515_2.cpp",
 		"/Users/apple/leetcode_practice/p515/p515.cpp",
 		"/Users/apple/leetcode_practice/p620/p620.sql",
-		"/Users/apple/leetcode_practice/p419/p419.cpp",
-		"/Users/apple/leetcode_practice/p295/p295.cpp",
-		"/Users/apple/leetcode_practice/p116/p116.cpp",
-		"/Users/apple/leetcode_practice/p84/p84.cpp",
-		"/Users/apple/leetcode_practice/p321/p321.cpp",
-		"/Users/apple/leetcode_practice/p389/p389_2.cpp"
+		"/Users/apple/leetcode_practice/p419/p419.cpp"
 	],
 	"find":
 	{
@@ -382,6 +380,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"1 << 30",
+			"nums",
+			"pos",
 			"f[i-1]",
 			"f[i]",
 			"Projects",
@@ -455,6 +456,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"bigNum",
+			"data",
+			"locations",
 			"f[1-flag]",
 			"f[flag]",
 			"Task",
@@ -530,15 +534,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 734,
+						"buffer_size": 735,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								524,
-								524
+								544,
+								544
 							]
 						],
 						"settings":
