@@ -1,4 +1,4 @@
-// unfinished.
+// unfinished. Brutal force. TLE.
 class WordFilter {
 public:
 	int n = 0;
