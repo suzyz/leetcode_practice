@@ -21,6 +21,10 @@ func getSkyline(buildings [][]int) [][]int {
 			curMaxX = r
 		} else {
 			if 
+
+
+
+			
 		}
 
 	}
