@@ -192,7 +192,16 @@
 			"file": "p218/p218.go",
 			"settings":
 			{
-				"buffer_size": 498,
+				"buffer_size": 505,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "p375/p375.go",
+			"settings":
+			{
+				"buffer_size": 240,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -252,10 +261,25 @@
 	[
 		"/Users/apple/leetcode_practice",
 		"/Users/apple/leetcode_practice/p218",
+		"/Users/apple/leetcode_practice/p375",
 		"/Users/apple/leetcode_practice/p654"
 	],
 	"file_history":
 	[
+		"/Users/apple/leetcode_practice/p354/p354_2.go",
+		"/Users/apple/leetcode_practice/p354/p354.go",
+		"/Users/apple/leetcode_practice/p368/p368.go",
+		"/Users/apple/leetcode_practice/p698/p698.go",
+		"/Users/apple/leetcode_practice/p367/p367.go",
+		"/Users/apple/leetcode_practice/p327/p327_2.go",
+		"/Users/apple/leetcode_practice/p327/p327.go",
+		"/Users/apple/leetcode_practice/p363/p363.go",
+		"/Users/apple/leetcode_practice/p307/p307.go",
+		"/Users/apple/leetcode_practice/p304/p304.go",
+		"/Users/apple/leetcode_practice/p218/p218.go",
+		"/Users/apple/leetcode_practice/p385/p385_2.go",
+		"/Users/apple/leetcode_practice/p385/p385.go",
+		"/Users/apple/leetcode_practice/p223/p223.go",
 		"/Users/apple/leetcode_practice/p745/p745_2.go",
 		"/Users/apple/leetcode_practice/p745/p745.go",
 		"/Users/apple/leetcode_practice/p745/p745.cpp",
@@ -369,21 +393,7 @@
 		"/Users/apple/Desktop/2017秋数据挖掘论文/bank/bank-names.txt",
 		"/Users/apple/Desktop/2017秋数据挖掘论文/bank/bank.csv",
 		"/Users/apple/Desktop/2017秋数据挖掘论文/bank/bank-full.csv",
-		"/Users/apple/leetcode_practice/p729/p729_2.cpp",
-		"/Users/apple/leetcode_practice/p729/p729.cpp",
-		"/Users/apple/Desktop/poker-hand-training-true.data",
-		"/Users/apple/2017秋季数据挖掘/期末课程论文格式模板.docx",
-		"/Users/apple/leetcode_practice/p645/p645.cpp",
-		"/Users/apple/leetcode_practice/p92/p92.cpp",
-		"/Users/apple/leetcode_practice/p109/p109_2.cpp",
-		"/Users/apple/leetcode_practice/p109/p109.cpp",
-		"/Users/apple/leetcode_practice/p117/p117.cpp",
-		"/Users/apple/leetcode_practice/p450/p450.cpp",
-		"/Users/apple/leetcode_practice/p508/p508_2.cpp",
-		"/Users/apple/leetcode_practice/p508/p508.cpp",
-		"/Users/apple/leetcode_practice/p226/p226.cpp",
-		"/Users/apple/leetcode_practice/p501/p501.cpp",
-		"/Users/apple/leetcode_practice/p563/p563.cpp"
+		"/Users/apple/leetcode_practice/p729/p729_2.cpp"
 	],
 	"find":
 	{
@@ -402,6 +412,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"*previousSums",
 			"1 << 30",
 			"nums",
 			"pos",
@@ -478,6 +489,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"(*previousSums)",
 			"bigNum",
 			"data",
 			"locations",
@@ -547,7 +559,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -563,8 +575,8 @@
 						"selection":
 						[
 							[
-								542,
-								542
+								541,
+								541
 							]
 						],
 						"settings":
@@ -577,7 +589,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -586,15 +598,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 498,
+						"buffer_size": 505,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								443,
-								443
+								492,
+								492
 							]
 						],
 						"settings":
@@ -603,7 +615,36 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 135.0,
+						"translation.y": 247.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "p375/p375.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 240,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								167,
+								167
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
