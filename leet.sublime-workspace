@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"imp",
+				"import\timport (...) ʂ"
+			],
+			[
 				"fu",
 				"func (*trie)\tfunc (...) {...} ʂ"
 			],
@@ -200,6 +204,15 @@
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "p352/p352.go",
+			"settings":
+			{
+				"buffer_size": 2118,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "Packages/Java/JavaC.sublime-build",
@@ -256,13 +269,19 @@
 	[
 		"/Users/apple/leetcode_practice",
 		"/Users/apple/leetcode_practice/p218",
+		"/Users/apple/leetcode_practice/p228",
 		"/Users/apple/leetcode_practice/p331",
+		"/Users/apple/leetcode_practice/p352",
 		"/Users/apple/leetcode_practice/p375",
-		"/Users/apple/leetcode_practice/p654",
-		"/Users/apple/leetcode_practice/p691"
+		"/Users/apple/leetcode_practice/p654"
 	],
 	"file_history":
 	[
+		"/Users/apple/leetcode_practice/p228/p228.go",
+		"/Users/apple/leetcode_practice/p216/p216.go",
+		"/Users/apple/leetcode_practice/p232/p232.go",
+		"/Users/apple/leetcode_practice/p382/p382.go",
+		"/Users/apple/leetcode_practice/p629/p629.go",
 		"/Users/apple/leetcode_practice/p472/p472.go",
 		"/Users/apple/leetcode_practice/p691/p691_2.go",
 		"/Users/apple/leetcode_practice/p691/p691.go",
@@ -385,12 +404,7 @@
 		"/Users/apple/leetcode_practice/p673/p673.cpp",
 		"/Users/apple/leetcode_practice/p410/p410_2.cpp",
 		"/Users/apple/leetcode_practice/p410/p410.cpp",
-		"/Users/apple/leetcode_practice/p657/p657.cpp",
-		"/Users/apple/leetcode_practice/p538/p538.cpp",
-		"/Users/apple/leetcode_practice/p394/p394.cpp",
-		"/Users/apple/leetcode_practice/p733/p733.cpp",
-		"/Users/apple/leetcode_practice/p219/p219.cpp",
-		"/Users/apple/leetcode_practice/p695/p695.cpp"
+		"/Users/apple/leetcode_practice/p657/p657.cpp"
 	],
 	"find":
 	{
@@ -409,6 +423,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"d",
 			"*previousSums",
 			"1 << 30",
 			"nums",
@@ -486,6 +501,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"(*d)",
 			"(*previousSums)",
 			"bigNum",
 			"data",
@@ -556,7 +572,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -585,7 +601,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -612,6 +628,35 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "p352/p352.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2118,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								340,
+								340
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 121.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
