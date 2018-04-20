@@ -261,12 +261,12 @@
 		"/Users/apple/leetcode_practice",
 		"/Users/apple/leetcode_practice/p218",
 		"/Users/apple/leetcode_practice/p228",
-		"/Users/apple/leetcode_practice/p331",
 		"/Users/apple/leetcode_practice/p375",
 		"/Users/apple/leetcode_practice/p654"
 	],
 	"file_history":
 	[
+		"/Users/apple/leetcode_practice/p332/p332.go",
 		"/Users/apple/leetcode_practice/p743/p743.go",
 		"/Users/apple/leetcode_practice/p352/p352.go",
 		"/Users/apple/leetcode_practice/p228/p228.go",
@@ -393,8 +393,7 @@
 		"/Users/apple/leetcode_practice/p547/p547.cpp",
 		"/Users/apple/leetcode_practice/p576/p576.cpp",
 		"/Users/apple/leetcode_practice/p673/p673_2.cpp",
-		"/Users/apple/leetcode_practice/p673/p673.cpp",
-		"/Users/apple/leetcode_practice/p410/p410_2.cpp"
+		"/Users/apple/leetcode_practice/p673/p673.cpp"
 	],
 	"find":
 	{
@@ -607,8 +606,8 @@
 						"selection":
 						[
 							[
-								212,
-								212
+								211,
+								211
 							]
 						],
 						"settings":
