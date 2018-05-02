@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"poi",
+				"Point"
+			],
+			[
+				"sqrt",
+				"Sqrt\tfloat64 ƒ"
+			],
+			[
+				"func",
+				"func (*WordDictionary)\tfunc (...) {...} ʂ"
+			],
+			[
 				"imp",
 				"import\timport (...) ʂ"
 			],
@@ -30,10 +42,6 @@
 			[
 				"p",
 				"Println\tn int, err error ƒ"
-			],
-			[
-				"func",
-				"func (*point)\tfunc (...) {...} ʂ"
 			],
 			[
 				"null",
@@ -197,11 +205,13 @@
 			}
 		},
 		{
-			"file": "p375/p375.go",
+			"contents": "package p621\n\nconst maxtime = (1 << 31) - 1\n\nfunc leastInterval(tasks []byte, n int) int {\n\tm := len(tasks)\n\n\tcount := make([]int, 26)\n\tfor _, c := range tasks {\n\t\tcount[c-'A']++\n\t}\n\t\n\tnext := make([]int, 26)\n\tfor i := 0; i < 26; i++ {\n\t\tif count[i] == 0 {\n\t\t\tnext[i] = maxtime\n\t\t}\n\t}\n\n\tcurTime := 0\n\tfor m > 0 {\n\t\tm--\n\n\t\tk := 0\n\t\tfor i := 1; i < 26; i++ {\n\t\t\tif next[i] < next[k] || (next[i] == next[k] && count[i] > count[k]) {\n\t\t\t\tk = i\n\t\t\t}\n\t\t}\n\n\t\tif next[k] == maxtime {\n\t\t\treturn -1\n\t\t}\n\n\t\tcount[k]--\n\t\tif next[k] > curTime {\n\t\t\tcurTime = next[k] + 1\n\n\t\t\tif count[k] > 0 {\n\t\t\t\tnext[k] = curTime + n - 1\n\t\t\t} else {\n\t\t\t\tnext[k] = maxtime\n\t\t\t}\n\t\t} else {\n\t\t\tcurTime++\n\n\t\t\tif count[k] > 0 {\n\t\t\t\tnext[k] = curTime + n\n\t\t\t} else {\n\t\t\t\tnext[k] = maxtime\n\t\t\t}\n\t\t}\n\n\t\tfmt.Println(k)\n\t\tfmt.Println(next)\n\t}\n\treturn curTime\n}\n",
+			"file": "p621/p621.go",
+			"file_size": 820,
+			"file_write_time": 131692124880000000,
 			"settings":
 			{
-				"buffer_size": 240,
-				"encoding": "UTF-8",
+				"buffer_size": 822,
 				"line_ending": "Unix"
 			}
 		}
@@ -260,12 +270,42 @@
 	[
 		"/Users/apple/leetcode_practice",
 		"/Users/apple/leetcode_practice/p218",
-		"/Users/apple/leetcode_practice/p228",
-		"/Users/apple/leetcode_practice/p375",
+		"/Users/apple/leetcode_practice/p621",
 		"/Users/apple/leetcode_practice/p654"
 	],
 	"file_history":
 	[
+		"/Users/apple/leetcode_practice/p456/p456.go",
+		"/Users/apple/leetcode_practice/p446/p446_2.go",
+		"/Users/apple/leetcode_practice/p446/p446.go",
+		"/Users/apple/leetcode_practice/p345/p345.go",
+		"/Users/apple/leetcode_practice/p377/p377_2.go",
+		"/Users/apple/leetcode_practice/p377/p377.go",
+		"/Users/apple/leetcode_practice/p312/p312.go",
+		"/Users/apple/Library/Application Support/Sublime Text 3/Packages/GoSublime/CHANGELOG.md",
+		"/Users/apple/leetcode_practice/p546/p546_2.go",
+		"/Users/apple/leetcode_practice/p546/p546.go",
+		"/Users/apple/leetcode_practice/p807/p807.go",
+		"/Users/apple/leetcode_practice/p771/p771.go",
+		"/Users/apple/leetcode_practice/p621/p621.go",
+		"/Users/apple/Desktop/Thesis20180420Complete/180507Submit.txt",
+		"/Users/apple/leetcode_practice/p486/p486_2.cpp",
+		"/Users/apple/leetcode_practice/p486/p486.cpp",
+		"/Users/apple/leetcode_practice/p149/p149.cpp",
+		"/Users/apple/leetcode_practice/p541/p541.go",
+		"/Users/apple/leetcode_practice/p507/p507.go",
+		"/Users/apple/leetcode_practice/p506/p506.go",
+		"/Users/apple/leetcode_practice/p560/p560.go",
+		"/Users/apple/leetcode_practice/p445/p445.go",
+		"/Users/apple/leetcode_practice/p451/p451.go",
+		"/Users/apple/leetcode_practice/p452/p452.go",
+		"/Users/apple/leetcode_practice/p211/p211.go",
+		"/Users/apple/leetcode_practice/p241/p241.go",
+		"/Users/apple/leetcode_practice/p488/p488.go",
+		"/Users/apple/leetcode_practice/p273/p273.go",
+		"/Users/apple/leetcode_practice/p233/p233.go",
+		"/Users/apple/leetcode_practice/p375/p375.go",
+		"/Users/apple/leetcode_practice/p785/p785.go",
 		"/Users/apple/leetcode_practice/p332/p332.go",
 		"/Users/apple/leetcode_practice/p743/p743.go",
 		"/Users/apple/leetcode_practice/p352/p352.go",
@@ -315,7 +355,6 @@
 		"/Users/apple/leetcode_practice/p224/p224_2.go",
 		"/Users/apple/leetcode_practice/p491/p491.go",
 		"/Users/apple/leetcode_practice/p491/p491_2.go",
-		"/Users/apple/Library/Application Support/Sublime Text 3/Packages/GoSublime/CHANGELOG.md",
 		"/Users/apple/leetcode_practice/p581/p581_2.go",
 		"/Users/apple/leetcode_practice/p581/p581.go",
 		"/Users/apple/leetcode_practice/p696/p696.go",
@@ -363,37 +402,7 @@
 		"/Users/apple/leetcode_practice/p138/p138.cpp",
 		"/Users/apple/leetcode_practice/p138/p138.go",
 		"/Users/apple/leetcode_practice/p395/p395.go",
-		"/Users/apple/leetcode_practice/p395/p395.cpp",
-		"/Users/apple/leetcode_practice/p685/p685.cpp",
-		"/Users/apple/leetcode_practice/p140/p140.go",
-		"/Users/apple/leetcode_practice/p140/p140.cpp",
-		"/Users/apple/leetcode_practice/p127/p127.go",
-		"/Users/apple/leetcode_practice/p783/p783_2.go",
-		"/Users/apple/leetcode_practice/p783/p783.go",
-		"/Users/apple/plot_test.R",
-		"/Users/apple/leetcode_practice/p32/p32.go",
-		"/Users/apple/leetcode_practice/p32/p32_2.go",
-		"/Users/apple/leetcode_practice/p32/p32.cpp",
-		"/Users/apple/leetcode_practice/p32/p32_1.cpp",
-		"/Users/apple/leetcode_practice/p594/p594.go",
-		"/Users/apple/leetcode_practice/p746/p746.go",
-		"/Users/apple/leetcode_practice/p463/p463.cpp",
-		"/Users/apple/leetcode_practice/p606/p606.go",
-		"/Users/apple/leetcode_practice/p572/p572.go",
-		"/Users/apple/leetcode_practice/p81/p81.go",
-		"/Users/apple/leetcode_practice/p167/p167.go",
-		"/Users/apple/Library/Application Support/Sublime Text 3/Packages/User/GoSublime.sublime-settings",
-		"/Users/apple/leetcode_practice/p3/p3.go",
-		"/Users/apple/leetcode_practice/p3/p3.cpp",
-		"/Users/apple/leetcode_practice/p557/p557.cpp",
-		"/Users/apple/leetcode_practice/p301/p301.cpp",
-		"/Users/apple/leetcode_practice/p114/p114_2.cpp",
-		"/Users/apple/leetcode_practice/p309/p309_2.cpp",
-		"/Users/apple/leetcode_practice/p309/p309.cpp",
-		"/Users/apple/leetcode_practice/p547/p547.cpp",
-		"/Users/apple/leetcode_practice/p576/p576.cpp",
-		"/Users/apple/leetcode_practice/p673/p673_2.cpp",
-		"/Users/apple/leetcode_practice/p673/p673.cpp"
+		"/Users/apple/leetcode_practice/p395/p395.cpp"
 	],
 	"find":
 	{
@@ -412,6 +421,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"lim",
 			"d",
 			"*previousSums",
 			"1 << 30",
@@ -490,6 +500,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"next",
 			"(*d)",
 			"(*previousSums)",
 			"bigNum",
@@ -577,8 +588,8 @@
 						"selection":
 						[
 							[
-								490,
-								490
+								304,
+								304
 							]
 						],
 						"settings":
@@ -595,19 +606,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "p375/p375.go",
+					"file": "p621/p621.go",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 240,
+						"buffer_size": 822,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								211,
-								211
+								317,
+								317
 							]
 						],
 						"settings":
