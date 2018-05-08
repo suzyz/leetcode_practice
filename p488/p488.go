@@ -1,23 +1,23 @@
-// TLE.
+package p488
+
 func findMinStep(board string, hand string) int {
 
 	m := len(hand)
 
 	for i := 1; i <= m; i++ {
-		
 		used := make([]bool, m)
 		if try(0, i, m, used, &hand, board) {
 			return i
 		}
 	}
-    
+
 	return -1
 }
 
 func try(i, tot, lim int, used []bool, hand *string, board string) bool {
-    
+
 	if i == tot {
-		if shrink(board) == "" {
+		if board == "" {
 			return true
 		} else {
 			return false
@@ -28,14 +28,23 @@ func try(i, tot, lim int, used []bool, hand *string, board string) bool {
 		if !used[k] {
 			used[k] = true
 			for j := 0; j <= len(board); j++ {
-				t := board[:j] + string((*hand)[k]) + board[j:]
-				t = shrink(t)
-
-				if try(i+1, tot, lim, used, hand, t) {
-					return true
+				// There is no point breaking a continous chain
+				if j > 0 && j < len(board) && board[j] == board[j-1] {
+					continue
 				}
+				// Key optimization:
+				// only insert (*hand)[k] when it is the same color with one neighbor
+				if (j < len(board) && board[j] == (*hand)[k]) || (j > 0 && board[j-1] == (*hand)[k]) {
+					t := board[:j] + string((*hand)[k]) + board[j:]
+					t = shrink(t)
+
+					if try(i+1, tot, lim, used, hand, t) {
+						return true
+					}
+				}
+
 			}
-			used[k] = false		
+			used[k] = false
 		}
 	}
 

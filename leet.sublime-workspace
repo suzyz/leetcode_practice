@@ -203,17 +203,6 @@
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
-		},
-		{
-			"contents": "package p621\n\nconst maxtime = (1 << 31) - 1\n\nfunc leastInterval(tasks []byte, n int) int {\n\tm := len(tasks)\n\n\tcount := make([]int, 26)\n\tfor _, c := range tasks {\n\t\tcount[c-'A']++\n\t}\n\t\n\tnext := make([]int, 26)\n\tfor i := 0; i < 26; i++ {\n\t\tif count[i] == 0 {\n\t\t\tnext[i] = maxtime\n\t\t}\n\t}\n\n\tcurTime := 0\n\tfor m > 0 {\n\t\tm--\n\n\t\tk := 0\n\t\tfor i := 1; i < 26; i++ {\n\t\t\tif next[i] < next[k] || (next[i] == next[k] && count[i] > count[k]) {\n\t\t\t\tk = i\n\t\t\t}\n\t\t}\n\n\t\tif next[k] == maxtime {\n\t\t\treturn -1\n\t\t}\n\n\t\tcount[k]--\n\t\tif next[k] > curTime {\n\t\t\tcurTime = next[k] + 1\n\n\t\t\tif count[k] > 0 {\n\t\t\t\tnext[k] = curTime + n - 1\n\t\t\t} else {\n\t\t\t\tnext[k] = maxtime\n\t\t\t}\n\t\t} else {\n\t\t\tcurTime++\n\n\t\t\tif count[k] > 0 {\n\t\t\t\tnext[k] = curTime + n\n\t\t\t} else {\n\t\t\t\tnext[k] = maxtime\n\t\t\t}\n\t\t}\n\n\t\tfmt.Println(k)\n\t\tfmt.Println(next)\n\t}\n\treturn curTime\n}\n",
-			"file": "p621/p621.go",
-			"file_size": 820,
-			"file_write_time": 131692124880000000,
-			"settings":
-			{
-				"buffer_size": 822,
-				"line_ending": "Unix"
-			}
 		}
 	],
 	"build_system": "Packages/Java/JavaC.sublime-build",
@@ -270,11 +259,12 @@
 	[
 		"/Users/apple/leetcode_practice",
 		"/Users/apple/leetcode_practice/p218",
-		"/Users/apple/leetcode_practice/p621",
 		"/Users/apple/leetcode_practice/p654"
 	],
 	"file_history":
 	[
+		"/Users/apple/leetcode_practice/p488/p488.go",
+		"/Users/apple/leetcode_practice/p621/p621.go",
 		"/Users/apple/leetcode_practice/p456/p456.go",
 		"/Users/apple/leetcode_practice/p446/p446_2.go",
 		"/Users/apple/leetcode_practice/p446/p446.go",
@@ -287,7 +277,6 @@
 		"/Users/apple/leetcode_practice/p546/p546.go",
 		"/Users/apple/leetcode_practice/p807/p807.go",
 		"/Users/apple/leetcode_practice/p771/p771.go",
-		"/Users/apple/leetcode_practice/p621/p621.go",
 		"/Users/apple/Desktop/Thesis20180420Complete/180507Submit.txt",
 		"/Users/apple/leetcode_practice/p486/p486_2.cpp",
 		"/Users/apple/leetcode_practice/p486/p486.cpp",
@@ -301,7 +290,6 @@
 		"/Users/apple/leetcode_practice/p452/p452.go",
 		"/Users/apple/leetcode_practice/p211/p211.go",
 		"/Users/apple/leetcode_practice/p241/p241.go",
-		"/Users/apple/leetcode_practice/p488/p488.go",
 		"/Users/apple/leetcode_practice/p273/p273.go",
 		"/Users/apple/leetcode_practice/p233/p233.go",
 		"/Users/apple/leetcode_practice/p375/p375.go",
@@ -421,6 +409,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"D",
+			"E",
+			"G",
+			"H",
+			"C",
+			"B",
+			"A",
+			"26",
 			"lim",
 			"d",
 			"*previousSums",
@@ -500,6 +496,14 @@
 		"regex": false,
 		"replace_history":
 		[
+			"F",
+			"D",
+			"E",
+			"G",
+			"H",
+			"C",
+			"B",
+			"tot",
 			"next",
 			"(*d)",
 			"(*previousSums)",
@@ -572,7 +576,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -588,37 +592,8 @@
 						"selection":
 						[
 							[
-								304,
-								304
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "p621/p621.go",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 822,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								317,
-								317
+								503,
+								503
 							]
 						],
 						"settings":
