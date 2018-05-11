@@ -40,33 +40,30 @@ func (this *Twitter) PostTweet(userId int, tweetId int) {
 
 /** Retrieve the 10 most recent tweet ids in the user's news feed. Each item in the news feed must be posted by users who the user followed or by the user herself. Tweets must be ordered from most recent to least recent. */
 func (this *Twitter) GetNewsFeed(userId int) []int {
-	res := []tweet{}
+	res := make([]tweet, len(this.tweets[userId]))
+	// oneself's
+	copy(res, this.tweets[userId])
 
 	// followees's
 	for _, p := range this.followee[userId] {
+		if p == userId {
+			continue
+		}
 		for _, t := range this.tweets[p] {
 			if len(res) < lim {
 				res = append(res, t)
 			} else {
+				minTime := t.time
+				k := 0
 				for i := 0; i < lim; i++ {
-					if res[i].time < t.time {
-						res[i] = t
-						break
+					if res[i].time < minTime {
+						k = i
+						minTime = res[i].time
 					}
 				}
-			}
-		}
-	}
 
-	// oneself's
-	for _, t := range this.tweets[userId] {
-		if len(res) < lim {
-			res = append(res, t)
-		} else {
-			for i := 0; i < lim; i++ {
-				if res[i].time < t.time {
-					res[i] = t
-					break
+				if res[k].time < t.time {
+					res[k] = t
 				}
 			}
 		}
@@ -105,6 +102,8 @@ func (this *Twitter) Unfollow(followerId int, followeeId int) {
 		if this.followee[followerId][i] == followeeId {
 			this.followee[followerId] = append(this.followee[followerId][:i],
 				this.followee[followerId][i+1:]...)
+
+			return
 		}
 	}
 }
