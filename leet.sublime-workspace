@@ -4,16 +4,28 @@
 		"selected_items":
 		[
 			[
+				"fol",
+				"followerId\tint ν"
+			],
+			[
+				"twe",
+				"tweetId\tint ν"
+			],
+			[
+				"fcu",
+				"func (*uglyNums)\tfunc (...) {...} ʂ"
+			],
+			[
+				"func",
+				"func (*uglyNums)\tfunc (...) {...} ʂ"
+			],
+			[
 				"poi",
 				"Point"
 			],
 			[
 				"sqrt",
 				"Sqrt\tfloat64 ƒ"
-			],
-			[
-				"func",
-				"func (*WordDictionary)\tfunc (...) {...} ʂ"
 			],
 			[
 				"imp",
@@ -203,6 +215,15 @@
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "p260/p260.go",
+			"settings":
+			{
+				"buffer_size": 139,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "Packages/Java/JavaC.sublime-build",
@@ -259,10 +280,27 @@
 	[
 		"/Users/apple/leetcode_practice",
 		"/Users/apple/leetcode_practice/p218",
-		"/Users/apple/leetcode_practice/p654"
+		"/Users/apple/leetcode_practice/p260",
+		"/Users/apple/leetcode_practice/p316",
+		"/Users/apple/leetcode_practice/p355",
+		"/Users/apple/leetcode_practice/p654",
+		"/Users/apple/leetcode_practice/p804"
 	],
 	"file_history":
 	[
+		"/Users/apple/leetcode_practice/p316/p316.go",
+		"/Users/apple/leetcode_practice/p459/p459.go",
+		"/Users/apple/leetcode_practice/p455/p455_2.go",
+		"/Users/apple/leetcode_practice/p455/p455.go",
+		"/Users/apple/leetcode_practice/p355/p355.go",
+		"/Users/apple/leetcode_practice/p804/p804.go",
+		"/Users/apple/leetcode_practice/p476/p476.go",
+		"/Users/apple/leetcode_practice/p476/p476_2.go",
+		"/Users/apple/leetcode_practice/p726/p726.go",
+		"/Users/apple/leetcode_practice/p726/p726_2.go",
+		"/Users/apple/leetcode_practice/p679/p679.go",
+		"/Users/apple/leetcode_practice/p690/p690.cpp",
+		"/Users/apple/leetcode_practice/p313/p313.go",
 		"/Users/apple/leetcode_practice/p488/p488.go",
 		"/Users/apple/leetcode_practice/p621/p621.go",
 		"/Users/apple/leetcode_practice/p456/p456.go",
@@ -377,20 +415,7 @@
 		"/Users/apple/leetcode_practice/p126/p126_others.cpp",
 		"/Users/apple/leetcode_practice/p126/p126_2.cpp",
 		"/Users/apple/leetcode_practice/p287/p287.cpp",
-		"/Users/apple/leetcode_practice/p287/p287.go",
-		"/Users/apple/leetcode_practice/p299/p299.go",
-		"/Users/apple/leetcode_practice/p390/p390.go",
-		"/Users/apple/leetcode_practice/p714/p714_2.go",
-		"/Users/apple/leetcode_practice/p714/p714.go",
-		"/Users/apple/leetcode_practice/p7/p7.go",
-		"/Users/apple/leetcode_practice/p343/p343_2.go",
-		"/Users/apple/leetcode_practice/p343/p343.go",
-		"/Users/apple/leetcode_practice/p142/p142.cpp",
-		"/Users/apple/leetcode_practice/p137/p137.go",
-		"/Users/apple/leetcode_practice/p138/p138.cpp",
-		"/Users/apple/leetcode_practice/p138/p138.go",
-		"/Users/apple/leetcode_practice/p395/p395.go",
-		"/Users/apple/leetcode_practice/p395/p395.cpp"
+		"/Users/apple/leetcode_practice/p287/p287.go"
 	],
 	"find":
 	{
@@ -409,6 +434,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"j",
+			" \n",
+			"f",
 			"D",
 			"E",
 			"G",
@@ -496,6 +524,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"i",
+			"(*f)",
 			"F",
 			"D",
 			"E",
@@ -576,7 +606,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -592,8 +622,37 @@
 						"selection":
 						[
 							[
-								503,
-								503
+								448,
+								448
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "p260/p260.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 139,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								136,
+								136
 							]
 						],
 						"settings":
