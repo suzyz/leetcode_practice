@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"fucn",
+				"func (*MagicDictionary)\tfunc (...) {...} ʂ"
+			],
+			[
+				"func",
+				"func (*MagicDictionary)\tfunc (...) {...} ʂ"
+			],
+			[
 				"fol",
 				"followerId\tint ν"
 			],
@@ -13,10 +21,6 @@
 			],
 			[
 				"fcu",
-				"func (*uglyNums)\tfunc (...) {...} ʂ"
-			],
-			[
-				"func",
 				"func (*uglyNums)\tfunc (...) {...} ʂ"
 			],
 			[
@@ -38,10 +42,6 @@
 			[
 				"wor",
 				"wordFilter\tWordFilter ν"
-			],
-			[
-				"fucn",
-				"func (*Trie)\tfunc (...) {...} ʂ"
 			],
 			[
 				"fun",
@@ -217,10 +217,19 @@
 			}
 		},
 		{
-			"file": "p260/p260.go",
+			"file": "p330/p330.go",
 			"settings":
 			{
-				"buffer_size": 139,
+				"buffer_size": 385,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "p797/p797.go",
+			"settings":
+			{
+				"buffer_size": 541,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -282,12 +291,40 @@
 		"/Users/apple/leetcode_practice/p218",
 		"/Users/apple/leetcode_practice/p260",
 		"/Users/apple/leetcode_practice/p316",
-		"/Users/apple/leetcode_practice/p355",
+		"/Users/apple/leetcode_practice/p318",
+		"/Users/apple/leetcode_practice/p330",
 		"/Users/apple/leetcode_practice/p654",
+		"/Users/apple/leetcode_practice/p797",
 		"/Users/apple/leetcode_practice/p804"
 	],
 	"file_history":
 	[
+		"/Users/apple/leetcode_practice/p318/p318.go",
+		"/Users/apple/leetcode_practice/p319/p319_2.go",
+		"/Users/apple/leetcode_practice/p319/p319.go",
+		"/Users/apple/leetcode_practice/p71/p71.go",
+		"/Users/apple/leetcode_practice/p260/p260.go",
+		"/Users/apple/leetcode_practice/p763/p763.go",
+		"/Users/apple/leetcode_practice/p832/p832.go",
+		"/Users/apple/leetcode_practice/p278/p278.cpp",
+		"/Users/apple/leetcode_practice/p435/p435_2.go",
+		"/Users/apple/leetcode_practice/p435/p435.go",
+		"/Users/apple/leetcode_practice/p436/p436.go",
+		"/Users/apple/leetcode_practice/p436/p436_2.go",
+		"/Users/apple/leetcode_practice/p436/p436_3.go",
+		"/Users/apple/leetcode_practice/p670/p670.go",
+		"/Users/apple/leetcode_practice/p676/p676.go",
+		"/Users/apple/leetcode_practice/p677/p677.go",
+		"/Users/apple/Library/Application Support/Sublime Text 3/Packages/GoSublime/CHANGELOG.md",
+		"/Users/apple/leetcode_practice/p284/p284.cpp",
+		"/Users/apple/leetcode_practice/p402/p402_2.go",
+		"/Users/apple/leetcode_practice/p402/p402.go",
+		"/Users/apple/leetcode_practice/p397/p397.go",
+		"/Users/apple/leetcode_practice/p791/p791.go",
+		"/Users/apple/leetcode_practice/p791/p791",
+		"/Users/apple/leetcode_practice/p409/p409.go",
+		"/Users/apple/leetcode_practice/p575/p575.go",
+		"/Users/apple/leetcode_practice/p728/p728.go",
 		"/Users/apple/leetcode_practice/p316/p316.go",
 		"/Users/apple/leetcode_practice/p459/p459.go",
 		"/Users/apple/leetcode_practice/p455/p455_2.go",
@@ -310,7 +347,6 @@
 		"/Users/apple/leetcode_practice/p377/p377_2.go",
 		"/Users/apple/leetcode_practice/p377/p377.go",
 		"/Users/apple/leetcode_practice/p312/p312.go",
-		"/Users/apple/Library/Application Support/Sublime Text 3/Packages/GoSublime/CHANGELOG.md",
 		"/Users/apple/leetcode_practice/p546/p546_2.go",
 		"/Users/apple/leetcode_practice/p546/p546.go",
 		"/Users/apple/leetcode_practice/p807/p807.go",
@@ -390,32 +426,7 @@
 		"/Users/apple/leetcode_practice/p297/p297.cpp",
 		"/Users/apple/leetcode_practice/p297/p297.go",
 		"/Users/apple/leetcode_practice/p741/p741.go",
-		"/Users/apple/leetcode_practice/p416/p416.go",
-		"/Users/apple/leetcode_practice/p502/p502_2.go",
-		"/Users/apple/leetcode_practice/p502/p502_other.go",
-		"/Users/apple/leetcode_practice/p502/p502.go",
-		"/Users/apple/leetcode_practice/p300/p300.go",
-		"/Users/apple/leetcode_practice/p646/p646_2.go",
-		"/Users/apple/leetcode_practice/p646/p646.go",
-		"/Users/apple/leetcode_practice/p639/p639.go",
-		"/Users/apple/leetcode_practice/p520/p520.go",
-		"/Users/apple/leetcode_practice/p438/p438.go",
-		"/Users/apple/leetcode_practice/p448/p448.go",
-		"/Users/apple/leetcode_practice/p406/p406.go",
-		"/Users/apple/leetcode_practice/p214/p214.go",
-		"/Users/apple/leetcode_practice/p336/p336_2.go",
-		"/Users/apple/leetcode_practice/p336/p336.go",
-		"/Users/apple/leetcode_practice/p334/p334.go",
-		"/Users/apple/leetcode_practice/p349/p349_2.go",
-		"/Users/apple/leetcode_practice/p349/p349.go",
-		"/Users/apple/leetcode_practice/p220/p220.go",
-		"/Users/apple/leetcode_practice/p437/p437.cpp",
-		"/Users/apple/leetcode_practice/p542/p542.go",
-		"/Users/apple/leetcode_practice/p126/p126.go",
-		"/Users/apple/leetcode_practice/p126/p126_others.cpp",
-		"/Users/apple/leetcode_practice/p126/p126_2.cpp",
-		"/Users/apple/leetcode_practice/p287/p287.cpp",
-		"/Users/apple/leetcode_practice/p287/p287.go"
+		"/Users/apple/leetcode_practice/p416/p416.go"
 	],
 	"find":
 	{
@@ -434,6 +445,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"intervals",
 			"j",
 			" \n",
 			"f",
@@ -524,6 +536,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"idx",
 			"i",
 			"(*f)",
 			"F",
@@ -606,7 +619,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -622,8 +635,8 @@
 						"selection":
 						[
 							[
-								448,
-								448
+								488,
+								488
 							]
 						],
 						"settings":
@@ -632,7 +645,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 268.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -640,19 +653,48 @@
 				},
 				{
 					"buffer": 1,
-					"file": "p260/p260.go",
+					"file": "p330/p330.go",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 139,
+						"buffer_size": 385,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								136,
-								136
+								379,
+								379
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 247.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "p797/p797.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 541,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								483,
+								483
 							]
 						],
 						"settings":
