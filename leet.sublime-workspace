@@ -297,11 +297,19 @@
 		"/Users/apple/leetcode_practice/p316",
 		"/Users/apple/leetcode_practice/p330",
 		"/Users/apple/leetcode_practice/p335",
+		"/Users/apple/leetcode_practice/p466",
 		"/Users/apple/leetcode_practice/p654",
+		"/Users/apple/leetcode_practice/p740",
 		"/Users/apple/leetcode_practice/p804"
 	],
 	"file_history":
 	[
+		"/Users/apple/leetcode_practice/p466/p466.go",
+		"/Users/apple/leetcode_practice/p565/p565.go",
+		"/Users/apple/leetcode_practice/p495/p495.go",
+		"/Users/apple/leetcode_practice/p537/p537.go",
+		"/Users/apple/leetcode_practice/p740/p740_2.go",
+		"/Users/apple/leetcode_practice/p740/p740.go",
 		"/Users/apple/leetcode_practice/p357/p357.go",
 		"/Users/apple/leetcode_practice/p738/p738.go",
 		"/Users/apple/leetcode_practice/p739/p739.go",
@@ -423,13 +431,7 @@
 		"/Users/apple/leetcode_practice/p696/p696_2.go",
 		"/Users/apple/leetcode_practice/p212/p212.go",
 		"/Volumes/HDD1/Go语言/老男孩go语言一期/L007-Go语言/project/src/go_dev/day6/homework/model/stu.go",
-		"/Volumes/HDD1/Go语言/老男孩go语言一期/L007-Go语言/project/src/go_dev/day6/homework/model/book.go",
-		"/Users/apple/leetcode_practice/p491/p491_3.go",
-		"/Users/apple/leetcode_practice/p491/p491.cpp",
-		"/Users/apple/leetcode_practice/p224/p224.go",
-		"/Users/apple/leetcode_practice/p224/p224_2.go",
-		"/Users/apple/leetcode_practice/p491/p491.go",
-		"/Users/apple/leetcode_practice/p491/p491_2.go"
+		"/Volumes/HDD1/Go语言/老男孩go语言一期/L007-Go语言/project/src/go_dev/day6/homework/model/book.go"
 	],
 	"find":
 	{
@@ -448,6 +450,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			")\n",
 			"flag",
 			"float",
 			"urltokey",
@@ -675,8 +678,8 @@
 						"selection":
 						[
 							[
-								374,
-								374
+								373,
+								373
 							]
 						],
 						"settings":
