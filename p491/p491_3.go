@@ -15,8 +15,7 @@ func main() {
 	d = []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
 	t1 = time.Now()
 	_ = findSubsequences(d)
-	t2 = time.Now()
-	fmt.Println(t2.Sub(t1))
+	fmt.Println(time.Since(t1))
 }
 
 func findSubsequences(nums []int) [][]int {

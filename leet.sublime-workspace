@@ -233,6 +233,15 @@
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "p491/p491_3.go",
+			"settings":
+			{
+				"buffer_size": 910,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "Packages/Java/JavaC.sublime-build",
@@ -298,12 +307,14 @@
 		"/Users/apple/leetcode_practice/p330",
 		"/Users/apple/leetcode_practice/p335",
 		"/Users/apple/leetcode_practice/p466",
+		"/Users/apple/leetcode_practice/p491",
 		"/Users/apple/leetcode_practice/p654",
 		"/Users/apple/leetcode_practice/p740",
 		"/Users/apple/leetcode_practice/p804"
 	],
 	"file_history":
 	[
+		"/Users/apple/Library/Application Support/Sublime Text 3/Packages/GoSublime/CHANGELOG.md",
 		"/Users/apple/leetcode_practice/p466/p466.go",
 		"/Users/apple/leetcode_practice/p565/p565.go",
 		"/Users/apple/leetcode_practice/p495/p495.go",
@@ -336,7 +347,6 @@
 		"/Users/apple/leetcode_practice/p670/p670.go",
 		"/Users/apple/leetcode_practice/p676/p676.go",
 		"/Users/apple/leetcode_practice/p677/p677.go",
-		"/Users/apple/Library/Application Support/Sublime Text 3/Packages/GoSublime/CHANGELOG.md",
 		"/Users/apple/leetcode_practice/p284/p284.cpp",
 		"/Users/apple/leetcode_practice/p402/p402_2.go",
 		"/Users/apple/leetcode_practice/p402/p402.go",
@@ -633,7 +643,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -662,7 +672,7 @@
 						"translation.y": 268.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -678,8 +688,8 @@
 						"selection":
 						[
 							[
-								373,
-								373
+								372,
+								372
 							]
 						],
 						"settings":
@@ -691,7 +701,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -718,6 +728,35 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "p491/p491_3.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 910,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								262,
+								262
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1014.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -759,7 +798,7 @@
 	"menu_visible": true,
 	"output.GoSublime-main-output":
 	{
-		"height": 65.0
+		"height": 135.0
 	},
 	"output.GoSublime-output":
 	{
