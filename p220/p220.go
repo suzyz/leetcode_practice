@@ -1,26 +1,37 @@
+// Buckets!
+package p220
 
 func containsNearbyAlmostDuplicate(nums []int, k int, t int) bool {
-	if k == 1 {
-		return (t == 0)
+	if t < 0 || k < 1 {
+		return false
 	}
-    if len(nums) < 2 {
-    	return false
-    }
 
-    n := len(nums)
+	const base = -(1 << 30)
 
-   	for i := 0; i < n; i++ {
-   		for j := i + 1; j <= i + k && j < n; j++ {
-   			k := nums[j] - nums[i]
-   			if k < 0 {
-   				k = -k
-   			}
+	m := make(map[int]int)
+	bucketSize := t + 1
 
-   			if k <= t {
-   				return true
-   			}
-   		} 
-   	}
+	for i, v := range nums {
+		curBucket := (v - base) / bucketSize
 
-   	return false
+		if _, ok := m[curBucket]; ok {
+			return true
+		}
+
+		if pre, ok := m[curBucket-1]; ok && v-pre <= t {
+			return true
+		}
+
+		if next, ok := m[curBucket+1]; ok && next-v <= t {
+			return true
+		}
+
+		if len(m) >= k {
+			delete(m, (nums[i-k]-base)/bucketSize)
+		}
+
+		m[curBucket] = v
+	}
+
+	return false
 }

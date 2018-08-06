@@ -305,9 +305,12 @@
 	],
 	"file_history":
 	[
+		"/Users/apple/leetcode_practice/p885/p885_2.go",
+		"/Users/apple/leetcode_practice/p885/p885.go",
+		"/Users/apple/leetcode_practice/p887/p887.go",
+		"/Users/apple/Library/Application Support/Sublime Text 3/Packages/GoSublime/CHANGELOG.md",
 		"/Users/apple/leetcode_practice/p530/p530.go",
 		"/Users/apple/leetcode_practice/p491/p491_3.go",
-		"/Users/apple/Library/Application Support/Sublime Text 3/Packages/GoSublime/CHANGELOG.md",
 		"/Users/apple/leetcode_practice/p466/p466.go",
 		"/Users/apple/leetcode_practice/p565/p565.go",
 		"/Users/apple/leetcode_practice/p495/p495.go",
@@ -429,10 +432,7 @@
 		"/Users/apple/leetcode_practice/p350/p350.go",
 		"/Users/apple/leetcode_practice/p664/p664.go",
 		"/Users/apple/leetcode_practice/p391/p391_2.go",
-		"/Users/apple/leetcode_practice/p391/p391.go",
-		"/Users/apple/leetcode_practice/p381/p381.go",
-		"/Users/apple/leetcode_practice/p696/p696_2.go",
-		"/Users/apple/leetcode_practice/p212/p212.go"
+		"/Users/apple/leetcode_practice/p391/p391.go"
 	],
 	"find":
 	{
@@ -710,8 +710,8 @@
 						"selection":
 						[
 							[
-								90,
-								90
+								96,
+								96
 							]
 						],
 						"settings":
