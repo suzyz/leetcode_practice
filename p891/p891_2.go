@@ -1,4 +1,4 @@
-// Space optimized.
+// Space optimized. O(K * logN)
 package p891
 
 func superEggDrop(K int, N int) int {
