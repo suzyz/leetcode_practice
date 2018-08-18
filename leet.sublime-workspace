@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"al",
+				"allOne\tAllOne ν"
+			],
+			[
 				"fucn",
 				"func (*MagicDictionary)\tfunc (...) {...} ʂ"
 			],
@@ -295,6 +299,13 @@
 	],
 	"file_history":
 	[
+		"/Users/apple/leetcode_practice/p868/p868.go",
+		"/Users/apple/leetcode_practice/p866/p866.go",
+		"/Users/apple/leetcode_practice/p432/p432.go",
+		"/Users/apple/leetcode_practice/p432/p432_2.go",
+		"/Users/apple/leetcode_practice/p704/p704.go",
+		"/Users/apple/leetcode_practice/p709/p709.go",
+		"/Users/apple/leetcode_practice/p765/p765.go",
 		"/Users/apple/leetcode_practice/p891/p891_2.go",
 		"/Users/apple/leetcode_practice/p890/p890.go",
 		"/Users/apple/leetcode_practice/p891/p891.go",
@@ -415,14 +426,7 @@
 		"/Users/apple/leetcode_practice/p327/p327.go",
 		"/Users/apple/leetcode_practice/p363/p363.go",
 		"/Users/apple/leetcode_practice/p307/p307.go",
-		"/Users/apple/leetcode_practice/p304/p304.go",
-		"/Users/apple/leetcode_practice/p218/p218.go",
-		"/Users/apple/leetcode_practice/p385/p385_2.go",
-		"/Users/apple/leetcode_practice/p385/p385.go",
-		"/Users/apple/leetcode_practice/p223/p223.go",
-		"/Users/apple/leetcode_practice/p745/p745_2.go",
-		"/Users/apple/leetcode_practice/p745/p745.go",
-		"/Users/apple/leetcode_practice/p745/p745.cpp"
+		"/Users/apple/leetcode_practice/p304/p304.go"
 	],
 	"find":
 	{
@@ -642,8 +646,8 @@
 						"selection":
 						[
 							[
-								451,
-								451
+								487,
+								487
 							]
 						],
 						"settings":
@@ -652,7 +656,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 291.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
