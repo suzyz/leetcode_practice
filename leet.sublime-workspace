@@ -215,7 +215,7 @@
 			"file": "p218/p218.go",
 			"settings":
 			{
-				"buffer_size": 505,
+				"buffer_size": 472,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -299,6 +299,10 @@
 	],
 	"file_history":
 	[
+		"/Users/apple/leetcode_practice/SumOfSubsequenceWords/sum_of_subsequence_widths.go",
+		"/Users/apple/leetcode_practice/ConstructBinaryTreeFromPreorderAndPostorderTraversal/construct_binary_tree_from_preorder_and_postorder_traversal.go",
+		"/Users/apple/leetcode_practice/FairCandySwap/fair_candy_swap.go",
+		"/Users/apple/leetcode_practice/FindAndReplacePattern/find_and_replace_pattern.go",
 		"/Users/apple/leetcode_practice/p868/p868.go",
 		"/Users/apple/leetcode_practice/p866/p866.go",
 		"/Users/apple/leetcode_practice/p432/p432.go",
@@ -422,11 +426,7 @@
 		"/Users/apple/leetcode_practice/p368/p368.go",
 		"/Users/apple/leetcode_practice/p698/p698.go",
 		"/Users/apple/leetcode_practice/p367/p367.go",
-		"/Users/apple/leetcode_practice/p327/p327_2.go",
-		"/Users/apple/leetcode_practice/p327/p327.go",
-		"/Users/apple/leetcode_practice/p363/p363.go",
-		"/Users/apple/leetcode_practice/p307/p307.go",
-		"/Users/apple/leetcode_practice/p304/p304.go"
+		"/Users/apple/leetcode_practice/p327/p327_2.go"
 	],
 	"find":
 	{
@@ -639,15 +639,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 505,
+						"buffer_size": 472,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								487,
-								487
+								444,
+								444
 							]
 						],
 						"settings":
@@ -656,7 +656,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 291.0,
+						"translation.y": 320.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
