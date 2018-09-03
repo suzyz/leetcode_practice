@@ -289,6 +289,11 @@
 	],
 	"file_history":
 	[
+		"/Users/apple/leetcode_practice/MonotonicArray/monotonic_array.go",
+		"/Users/apple/leetcode_practice/IncreasingOrderSearchTree/inc_order_search_tree.go",
+		"/Users/apple/leetcode_practice/OrderlyQueue/orderly_queue.go",
+		"/Users/apple/leetcode_practice/BitwiseORsOfSubarrays/bitwise.go",
+		"/Users/apple/leetcode_practice/MaximumFrequencyStack/maximum_2.go",
 		"/Users/apple/leetcode_practice/MaximumFrequencyStack/maximum.go",
 		"/Users/apple/leetcode_practice/AllPossibleFullBinaryTrees/allpossible.go",
 		"/Users/apple/leetcode_practice/GroupsOfSpecialEquivalentStrings/groups.go",
@@ -411,12 +416,7 @@
 		"/Users/apple/leetcode_practice/p629/p629.go",
 		"/Users/apple/leetcode_practice/p472/p472.go",
 		"/Users/apple/leetcode_practice/p691/p691_2.go",
-		"/Users/apple/leetcode_practice/p691/p691.go",
-		"/Users/apple/leetcode_practice/p654/p654.cpp",
-		"/Users/apple/leetcode_practice/p383/p383.go",
-		"/Users/apple/leetcode_practice/p396/p396.go",
-		"/Users/apple/leetcode_practice/p331/p331.go",
-		"/Users/apple/leetcode_practice/p354/p354_2.go"
+		"/Users/apple/leetcode_practice/p691/p691.go"
 	],
 	"find":
 	{
@@ -427,6 +427,7 @@
 		"height": 105.0,
 		"where_history":
 		[
+			"<current file>",
 			"/Users/apple/leet_practice"
 		]
 	},
@@ -435,6 +436,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"freq[x]",
 			"h.data",
 			"root",
 			")\n",
@@ -533,6 +535,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"newFreq",
+			"this.freq[x]",
 			"(*h)",
 			"cur",
 			"isIncreasing",
@@ -694,7 +698,7 @@
 	},
 	"output.GoSublime-output":
 	{
-		"height": 190.0
+		"height": 84.0
 	},
 	"output.exec":
 	{
