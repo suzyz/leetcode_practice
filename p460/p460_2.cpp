@@ -1,101 +1,67 @@
-// pretty messed up code written when I was really sleepy. T_T
-// the second version is much more cleaner and makes more sense.
 #include <iostream>
 #include <map>
-#include <set>
+#include <unordered_map>
+#include <list>
 #include <utility>
 
 using namespace std;
 
 class LFUCache {
 public:
-	int clock, cap;
-	map<int, int> values;
-	map<int, int> freqs;
-	map<int, int> lastVisitTime;
-	map<int, set<pair<int,int> > > mapFreqToKeys;
+	int cap;
+	unordered_map<int, int> values;
+	unordered_map<int, int> freqs;
+	map<int, list<int> > mapFreqToKeys;
+	unordered_map<int, list<int>::iterator> pos;
 
     LFUCache(int capacity) {
-    	clock = 0;
         cap = capacity;
     }
     
     int get(int key) {
-    	if (cap == 0)
+    	if (cap == 0 || !values.count(key))
     		return -1;
 
-    	clock++;
+    	incFreq(key);
 
-        if (!values.count(key))
-        	return -1;
-        
-        int v = values[key];
-        incFreq(key);
-
-        // cout << "get:" << key << endl;
-        // cout << "lastVisitTime:" << endl;
-        // for (std::map<int,int>::iterator i = lastVisitTime.begin(); i != lastVisitTime.end(); ++i)
-        // 	cout << i->first << ":" << i->second << endl;
-        // cout << endl;
-
-        return v;
+        return values[key];
     }
     
     void put(int key, int value) {
     	if (cap == 0)
     		return;
 
-    	clock++;
+    	if (values.size() == cap && !values.count(key)) {
+    		
+    		int evictKey = mapFreqToKeys.begin()->second.front();
 
- 		// cout << "put: " << key << "," << value << " clock:" << clock << endl;
+    		// erase everything relevant!
+    		mapFreqToKeys.begin()->second.pop_front();
+    		if (mapFreqToKeys.begin()->second.empty())
+    			mapFreqToKeys.erase(mapFreqToKeys.begin());
 
-    	if ((values.count(key) && values.size() > cap) || 
-    		(!values.count(key) && values.size() >= cap)) {
-        	int targetKey = mapFreqToKeys.begin()->second.begin()->second;
+    		freqs.erase(evictKey);
+    		values.erase(evictKey);
+    		pos.erase(evictKey);
+    	}
 
-        	// cout <<  mapFreqToKeys.begin()->second.begin()->first << endl;
-        	// cout << "evict:" << targetKey << endl;
-        	mapFreqToKeys.begin()->second.erase(mapFreqToKeys.begin()->second.begin());
-        	if (mapFreqToKeys.begin()->second.size() == 0)
-        		mapFreqToKeys.erase(mapFreqToKeys.begin());
-        	freqs.erase(targetKey);
-        	values.erase(targetKey);
-        	lastVisitTime.erase(targetKey);
-        }
-
-      	values[key] = value;
-        incFreq(key);
+    	values[key] = value;
+    	incFreq(key);
     }
 
     void incFreq(int key) {
     	int oldFreq = freqs[key];
         freqs[key]++;
 
-        // cout << "lastVisitTime:" << endl;
-        // for (std::map<int,int>::iterator i = lastVisitTime.begin(); i != lastVisitTime.end(); ++i)
-        // 	cout << i->first << ":" << i->second << endl;
-        // cout <<" ------ "<< endl;
-
         if (oldFreq > 0) {
-			// time complexity: log !!
+        	mapFreqToKeys[oldFreq].erase(pos[key]);
 
-        	mapFreqToKeys[oldFreq].erase(make_pair(lastVisitTime[key], key));
-        
-        	if (mapFreqToKeys[oldFreq].size() == 0)
+        	if (mapFreqToKeys[oldFreq].empty())
         		mapFreqToKeys.erase(oldFreq);
         }
-        	 
-        mapFreqToKeys[oldFreq+1].insert(make_pair(clock, key));
 
-        lastVisitTime[key] = clock;
-
-        // cout << "mapFreqToKeys:" << endl;
-       	// for (std::map<int,set<pair<int,int> > >::iterator i = mapFreqToKeys.begin(); i != mapFreqToKeys.end(); ++i) {
-       	// 	cout << "freq == " << i->first << ":" << endl;
-       	// 	for (std::set<pair<int,int> >::iterator j = i->second.begin(); j != i->second.end(); ++j)
-       	// 		cout << j->first << ":" << j->second << endl;
-       	// }
-       	// cout <<" ------ " << endl;
+        mapFreqToKeys[oldFreq+1].push_back(key);
+        pos[key] = --mapFreqToKeys[oldFreq+1].end();
     }
 };
 
@@ -148,14 +114,14 @@ int main(int argc, char const *argv[])
 	////////////////////////////////////////////
 	// ["LFUCache","get","put","get","put","put","get","get"]
 	// [[2],[2],[2,6],[1],[1,5],[1,2],[1],[2]]
-	// LFUCache obj(2);
-	// cout << obj.get(2) << endl;
-	// obj.put(2,6);
-	// cout << obj.get(1) << endl;
-	// obj.put(1,5);
-	// obj.put(1,2);
-	// cout << obj.get(1) << endl;
-	// cout << obj.get(2) << endl;
+	LFUCache obj(2);
+	cout << obj.get(2) << endl;
+	obj.put(2,6);
+	cout << obj.get(1) << endl;
+	obj.put(1,5);
+	obj.put(1,2);
+	cout << obj.get(1) << endl;
+	cout << obj.get(2) << endl;
 	
 	////////////////////////////////////////////
 	//["LFUCache","put","put","put","put","put","get","put","get","get","put","get","put","put","put","get","put","get","get","get","get","put","put","get","get","get","put","put","get","put","get","put","get","get","get","put","put","put","get","put","get","get","put","put","get","put","put","put","put","get","put","put","get","put","put","get","put","put","put","put","put","get","put","put","get","put","get","get","get","put","get","get","put","put","put","put","get","put","put","put","put","get","get","get","put","put","put","get","put","put","put","get","put","put","put","get","get","get","put","put","put","put","get","put","put","put","put","put","put","put"]
