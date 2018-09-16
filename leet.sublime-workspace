@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"for",
+				"for\tFor Loop"
+			],
+			[
 				"fun",
 				"func (*heap)\tfunc (...) {...} ʂ"
 			],
@@ -211,15 +215,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "p23/p23.cpp",
-			"settings":
-			{
-				"buffer_size": 468,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/Java/JavaC.sublime-build",
 	"build_system_choices":
@@ -278,10 +273,10 @@
 	"expanded_folders":
 	[
 		"/Users/apple/leetcode_practice",
-		"/Users/apple/leetcode_practice/p23",
 		"/Users/apple/leetcode_practice/p260",
 		"/Users/apple/leetcode_practice/p316",
 		"/Users/apple/leetcode_practice/p335",
+		"/Users/apple/leetcode_practice/p352",
 		"/Users/apple/leetcode_practice/p466",
 		"/Users/apple/leetcode_practice/p491",
 		"/Users/apple/leetcode_practice/p654",
@@ -290,6 +285,17 @@
 	],
 	"file_history":
 	[
+		"/Users/apple/leetcode_practice/SuperPalindromes/super_palindromes.cpp",
+		"/Users/apple/leetcode_practice/SumOfSubarrayMinimums/sum_of_subarray_minimums.cpp",
+		"/Users/apple/leetcode_practice/FruitIntoBaskets/fruit_into_baskets.cpp",
+		"/Users/apple/leetcode_practice/SortArrayByParity/sort_array_by_parity.cpp",
+		"/Users/apple/leetcode_practice/p875/p875.cpp",
+		"/Users/apple/leetcode_practice/p460/p460_2.cpp",
+		"/Users/apple/leetcode_practice/p460/p460.cpp",
+		"/Users/apple/leetcode_practice/p23/p23_3.cpp",
+		"/Users/apple/leetcode_practice/p23/p23_2.cpp",
+		"/Users/apple/leetcode_practice/p23/p23.cpp",
+		"/Users/apple/leetcode_practice/ValidPermutationsForDISequence/valid_permutations.cpp",
 		"/Users/apple/leetcode_practice/NumbersAtMostNGivenDigitSet/numbers.cpp",
 		"/Users/apple/leetcode_practice/OnlineStockSpan/online_stock_span.cpp",
 		"/Users/apple/leetcode_practice/RLEIterator/rle_iterator.cpp",
@@ -406,22 +412,11 @@
 		"/Users/apple/leetcode_practice/p149/p149.cpp",
 		"/Users/apple/leetcode_practice/p541/p541.go",
 		"/Users/apple/leetcode_practice/p507/p507.go",
-		"/Users/apple/leetcode_practice/p506/p506.go",
-		"/Users/apple/leetcode_practice/p560/p560.go",
-		"/Users/apple/leetcode_practice/p445/p445.go",
-		"/Users/apple/leetcode_practice/p451/p451.go",
-		"/Users/apple/leetcode_practice/p452/p452.go",
-		"/Users/apple/leetcode_practice/p211/p211.go",
-		"/Users/apple/leetcode_practice/p241/p241.go",
-		"/Users/apple/leetcode_practice/p273/p273.go",
-		"/Users/apple/leetcode_practice/p233/p233.go",
-		"/Users/apple/leetcode_practice/p375/p375.go",
-		"/Users/apple/leetcode_practice/p785/p785.go",
-		"/Users/apple/leetcode_practice/p332/p332.go"
+		"/Users/apple/leetcode_practice/p506/p506.go"
 	],
 	"find":
 	{
-		"height": 44.0
+		"height": 45.0
 	},
 	"find_in_files":
 	{
@@ -437,6 +432,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"5,2",
+			"freq",
+			"mapKeyToValue",
+			"PriorityQueue",
+			"size",
 			"freq[x]",
 			"h.data",
 			"root",
@@ -536,6 +536,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"values",
 			"newFreq",
 			"this.freq[x]",
 			"(*h)",
@@ -627,39 +628,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "p23/p23.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 468,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								389,
-								389
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 175.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -752,7 +722,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 207.0,
+	"side_bar_width": 229.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
