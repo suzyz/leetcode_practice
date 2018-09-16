@@ -1,3 +1,5 @@
+// O(n) in the worst case where Price is a strictly decreasing array
+
 class StockSpanner {
 public:
 	std::vector<int> p,f;
