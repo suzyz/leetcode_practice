@@ -285,6 +285,9 @@
 	],
 	"file_history":
 	[
+		"/Users/apple/leetcode_practice/OnlineStockSpan/online_stock_span_2.cpp",
+		"/Users/apple/leetcode_practice/OnlineStockSpan/online_stock_span.cpp",
+		"/Users/apple/leetcode_practice/SortArrayByParity/sort_array_by_parity_2.cpp",
 		"/Users/apple/leetcode_practice/SuperPalindromes/super_palindromes.cpp",
 		"/Users/apple/leetcode_practice/SumOfSubarrayMinimums/sum_of_subarray_minimums.cpp",
 		"/Users/apple/leetcode_practice/FruitIntoBaskets/fruit_into_baskets.cpp",
@@ -297,7 +300,6 @@
 		"/Users/apple/leetcode_practice/p23/p23.cpp",
 		"/Users/apple/leetcode_practice/ValidPermutationsForDISequence/valid_permutations.cpp",
 		"/Users/apple/leetcode_practice/NumbersAtMostNGivenDigitSet/numbers.cpp",
-		"/Users/apple/leetcode_practice/OnlineStockSpan/online_stock_span.cpp",
 		"/Users/apple/leetcode_practice/RLEIterator/rle_iterator.cpp",
 		"/Users/apple/leetcode_practice/p162/p162_2.cpp",
 		"/Users/apple/leetcode_practice/PeakIndexInAMountainArray/peak_index.cpp",
@@ -410,9 +412,7 @@
 		"/Users/apple/leetcode_practice/p486/p486_2.cpp",
 		"/Users/apple/leetcode_practice/p486/p486.cpp",
 		"/Users/apple/leetcode_practice/p149/p149.cpp",
-		"/Users/apple/leetcode_practice/p541/p541.go",
-		"/Users/apple/leetcode_practice/p507/p507.go",
-		"/Users/apple/leetcode_practice/p506/p506.go"
+		"/Users/apple/leetcode_practice/p541/p541.go"
 	],
 	"find":
 	{
