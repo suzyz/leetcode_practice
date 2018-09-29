@@ -1,3 +1,8 @@
+// Try to delete every edge that doesn't cause the "tree" to 
+// have no roots or more than one root.
+
+// O(N^2).
+
 class Solution {
 public:
     int n, removeU, removeV;
@@ -60,10 +65,10 @@ public:
 
         for (int i = n-1; i >= 0; --i) {
             int v = edges[i][1];
-            if (inDegree[v] == 1 && roots > 0)
+            if (inDegree[v] == 1 && roots > 0) // the "tree" would have more than one root
                 continue;
 
-            if (inDegree[v] > 1 && roots == 0)
+            if (inDegree[v] > 1 && roots == 0) // the "tree" would have no roots
                 continue;
 
             --inDegree[v];
