@@ -1,8 +1,13 @@
-// 精度问题。
+// 1. 有重点。
+
+// 2. 直接计算斜率deltaY/deltaX会因为精度不够误判。
+//    故同时保存除以公因式之后的deltaX和deltaY
+
 #include <iostream>
 #include <cstring>
 #include <cmath>
 #include <vector>
+#include <unordered_map>
 
 using namespace std;
 
@@ -12,7 +17,6 @@ struct Point {
     Point() : x(0), y(0) {}
     Point(int a, int b) : x(a), y(b) {}
 };
- 
 
 class Solution {
 public:
@@ -21,69 +25,43 @@ public:
         if (n < 3)
             return n;
 
-        int repeat[n];
-        memset(repeat,-1,sizeof(repeat));
-
-        int ans = 1;
+        int ans = 0;
         for (int i = 0; i < n; ++i)
-            if (repeat[i]<0)
-            {
-                repeat[i] = 1;
-                for (int j = i+1; j < n; ++j)
-                    if (repeat[j]<0)
-                    {
-                        if (points[j].x == points[i].x && points[j].y == points[i].y)
-                        {
-                            ++repeat[i];
-                            repeat[j] = 0;
-                        }
-                    }
-
-                if (repeat[i] >= n-1) {
-                    return n;
-                }
-
-                if (repeat[i]+1 > ans) {
-                    ans = repeat[i]+1;
-                }
-            }
-
-        for (int i = 0; i < n-1; ++i)
-            if (repeat[i] > 0)
-                for (int j = 0; j < n; ++j)
-                    if (repeat[j] > 0 && repeat[i] + repeat[j] > ans)
-                        ans = repeat[i] + repeat[j];
-
-        if (ans == n)
-            return n;
-
-        for (int i = 0; i < n-2; ++i)
-        if (repeat[i] > 0)
         {
-            for (int j = i+1; j < n-1; ++j)
-            if (repeat[j] > 0)
+            unordered_map<int, unordered_map<int, int> > m;
+            int overlap = 0, curMax = 0;
+
+            for (int j = i+1; j < n; ++j)
             {
-                if (2 + n-1-j <= ans)
-                    break;
+                int x = points[j].x - points[i].x;
+                int y = points[j].y - points[i].y;
 
-                double x1 = (double)points[i].x - points[j].x;
-                double y1 = (double)points[i].y - points[j].y;
-                int count = repeat[i] + repeat[j];
-
-                for (int k = j+1; k < n; ++k)
-                if (repeat[k] > 0)
-                {
-                    double x2 = (double)points[i].x - points[k].x;
-                    double y2 = (double)points[i].y - points[k].y;
-
-                    double tmp = ((double)x1)*y2 - ((double)x2)*y1;
-                    if (fabs(tmp) < 1e-6)
-                        count += repeat[k];
+                if (x == 0 && y == 0) {
+                    ++overlap;
+                    continue;
                 }
-                ans = count > ans ? count:ans;
+
+                int gcd = getGcd(x, y);
+                if (gcd != 0) {
+                    x /= gcd;
+                    y /= gcd;
+                }
+
+                ++m[x][y];
+                curMax = max(curMax, m[x][y]);
             }
+
+            ans = max(ans, overlap + curMax + 1);
         }
+        
         return ans;
+    }
+
+    int getGcd(int a, int b) {
+        if (b == 0)
+            return a;
+
+        return getGcd(b, a%b);
     }
 };
 
