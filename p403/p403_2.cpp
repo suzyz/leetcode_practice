@@ -1,41 +1,42 @@
 // Shorter code. The memorization in search is removed, but a few checkups before the DFS are added to prevent TLE.
 class Solution {
 public:
+    int n;
+    bool success = false;
+
     bool canCross(vector<int>& stones) {
-        int n = stones.size(); // n >= 2 and n < 1100
+        n = stones.size();
 
-        if (stones[1] != 1)
-        	return false;
-
-        for (int i = 1; i < n-1; ++i)
-            if (stones[i+1] - stones[i] > i+1)
+        for (int i = 1; i < n; ++i)
+            if (stones[i] - stones[i-1] > i)
                 return false;
 
         unordered_set<int> pos(stones.begin(), stones.end());
-
-        bool success = false;
-        dfs(1,1,pos,stones[n-1],success);
+        
+        dfs(1, 1, stones[n-1], pos);
 
         return success;
     }
 
-    void dfs(int cur,int last_step,unordered_set<int> &pos,int destination,bool &success)
-    {
-    	if (cur == destination)
-    	{
-    		success = true;
-    		return;
-    	}
+    void dfs(int curPos, int lastStep, int target, unordered_set<int>& pos) {
+        if (curPos >= target)
+        {
+            success = curPos == target;
+            return;
+        }
 
-    	for (int i = 1; i >= -1; --i)
-    	{
-    		int next = cur + last_step + i;
-			if (pos.count(next) == 1 && next > cur)
-			{
-	    		dfs(next,last_step+i,pos,destination,success);
-	    		if (success)
-	    			return;
-			}
-    	}
+        for (int i = 1; i >= -1; --i)
+        {
+            if (lastStep + i <= 0)
+                break;
+
+            int nextPos = curPos + lastStep + i;
+            if (pos.count(nextPos))
+            {
+                dfs(nextPos, lastStep + i, target, pos);
+                if (success)
+                    return;
+            }
+        }
     }
 };

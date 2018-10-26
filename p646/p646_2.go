@@ -1,4 +1,4 @@
-// Sort + Greedy. O(n^2)
+// Sort + Greedy. O(N*logN)
 
 type Pair [][]int
 

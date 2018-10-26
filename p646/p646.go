@@ -1,4 +1,4 @@
-// Sort + Plain DP. O(n^2)
+// Sort + Plain DP. O(N^2)
 func findLongestChain(pairs [][]int) int {
     n := len(pairs)
     if n < 2 {

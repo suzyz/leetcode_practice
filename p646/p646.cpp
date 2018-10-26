@@ -1,4 +1,4 @@
-// Sort + Plain DP. O(n^2)
+// Sort + Plain DP. O(N^2)
 class Solution {
 public:
     int findLongestChain(vector<vector<int>>& pairs) {
