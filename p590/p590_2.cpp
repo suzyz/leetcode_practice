@@ -24,6 +24,7 @@ public:
 
         st.push(root);
 
+        // Note that this is not exactly a preorder traversal!
         while (!st.empty()) {
         	Node* cur = st.top();
             st.pop();
