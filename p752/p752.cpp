@@ -1,3 +1,4 @@
+// Simple BFS.
 class Solution {
 public:
 	vector<int> dir;
