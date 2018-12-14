@@ -1,17 +1,19 @@
-// Recursive.
+// Also recursive.
 class Solution {
 public:
-    int evaluate(string s) {
-        unordered_map<string,int> dict;
-        return helper(s, dict);
-    }
+    vector<unordered_map<string, int>> scopes;
 
-    int helper(string s, unordered_map<string,int>& dict) {
+    int evaluate(string s) {
         if (isdigit(s[0]) || s[0] == '-')
             return atoi(s.c_str());
 
-        if (islower(s[0]))
-            return dict[s];
+        if (islower(s[0])) {
+            for (int i = scopes.size()-1; i >= 0; --i)
+                if (scopes[i].count(s))
+                    return scopes[i][s];
+
+            return 0;
+        }
         
         int n = s.length();
         vector<string> exprs;
@@ -20,21 +22,26 @@ public:
             int st = s[1] == 'a' ? 5 : 6;
             splitExpr(s.substr(st, n-1-st), exprs);
 
-            int a = helper(exprs[0], dict);
-            int b = helper(exprs[1], dict);
+            int a = evaluate(exprs[0]);
+            int b = evaluate(exprs[1]);
 
             return s[1] == 'a' ? a + b : a * b;
         }
 
+        unordered_map<string, int> tmp;
+        scopes.push_back(tmp);
+
         splitExpr(s.substr(5, n-6), exprs);
-        
         int len = exprs.size();
-        unordered_map<string,int> newDict = dict;
 
         for (int i = 0; i < len-1; i += 2)
-            newDict[exprs[i]] = helper(exprs[i+1], newDict);
+            scopes.back()[exprs[i]] = evaluate(exprs[i+1]);
         
-        return helper(exprs[len-1], newDict);
+        int ans = evaluate(exprs[len-1]);
+
+        scopes.pop_back();
+
+        return ans;
     }
 
     void splitExpr(string s, vector<string>& res) {
